@@ -1,0 +1,49 @@
+.parent-para-circle {
+    padding: 10px 2%;
+    position: relative;
+}
+
+.top-centre {
+    position: relative;
+}
+
+.circle {
+    height: 34px;
+    width: 150px;
+    padding: 3px;
+    margin: 3px;
+    background-color: bwhite;
+    border: solid 1px black;
+    /* border-radius: 103%; */
+}
+
+p {
+    position: relative;
+    padding: 5px 3%;
+    font-weight: 600;
+}
+
+.para {
+    position: relative;
+    background-color: white;
+    /* border: solid black 1px; */
+    padding: 0px 2%;
+    overflow: hidden;
+}
+
+.para>h1 {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.relative-line {
+    content: '';
+    position: absolute;
+    display: flex;
+    /* padding: 10px; */
+    height: 100%;
+    width: 1px;
+    background-color: black;
+    border: solid black 1px;
+}
+

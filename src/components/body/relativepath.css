@@ -1,0 +1,19 @@
+.bullet-points
+{
+    width: 90%;
+}
+
+.bullet-points-ul
+{
+    padding: 8px 8%;
+}
+
+.bullet-points-ul > li 
+{
+    list-style: inside;
+    padding: 7px 0px;
+}
+.para-padding
+{
+    padding: 0px 10px;
+}

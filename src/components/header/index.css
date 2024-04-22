@@ -1,0 +1,9 @@
+.ul-flex
+{
+    display: flex;
+}
+
+.right-parent > nav > ul > li
+{
+    margin: 0px 10px;
+}
