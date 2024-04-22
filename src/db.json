@@ -3,16 +3,9 @@
     "id": 1,
     "title": "Currently Researching In Large language Model",
     "date": "april/2024",
-    "des": "currently figuring out , llm , understading transformer and other stuff ,  looking forward a to build a llm project for my self, where i will process all my personal notes and will convert into question answer",
-    "img": "https://media.istockphoto.com/id/157742224/photo/classic-golden-picture-frame-with-clipping-path.jpg?s=1024x1024&w=is&k=20&c=NuY5HCjrpYvmlgGepiX5HvN7YjWgNixGlxMkwqoDakc=",
-    "tech": "React,javascript,html,css,react-router",
-    "keypoints": [
-      {  "text": "I builded Using React Js" },
-      {  "text": "It has Features like searching, sorting , recipt printing,whatsapp shareable recipt" },
-      {  "text": "Used MongoDb for Storing donares details" },
-      {  "text": "Used Nodejs , Expressjs , javascript used , Node js for Backend" }
-    ]
-  },{
+    "des": "currently figuring out , llm , understading transformer and other stuff ,  looking forward a to build a llm project for my self, where i will process all my personal notes and will convert into question answer"
+  },
+  {
       "id": 1,
       "title": "Paardarshi",
       "date": "march/2024",

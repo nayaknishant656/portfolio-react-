@@ -27,11 +27,11 @@ p {
     position: relative;
     background-color: white;
     /* border: solid black 1px; */
-    padding: 0px 2%;
+    padding: 0px 0px;
     overflow: hidden;
 }
 
-.para>h1 {
+.title-heading {
     font-size: xx-large;
     font-weight: 700;
 }
@@ -47,3 +47,28 @@ p {
     border: solid black 1px;
 }
 
+@media screen and (max-width: 600px) {
+    .parent-header {
+        padding: 1rem;
+    }
+
+    .para-padding>p {
+        position: relative;
+        padding: 5px 3%;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+    .para>h1 {
+        font-size: x-large;
+        font-weight: 700;
+    }
+    .p-4 {
+        padding: 1rem;
+        font-weight: 500;
+        font-style: italic;
+    }
+    .para
+    {
+        padding: 20px 0px;
+    }
+}
