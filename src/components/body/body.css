@@ -34,6 +34,7 @@ p {
 .title-heading {
     font-size: xx-large;
     font-weight: 700;
+    color: blue;
 }
 
 .relative-line {
