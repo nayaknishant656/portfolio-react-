@@ -1,0 +1,51 @@
+.parent-name-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.second-parent-name {
+
+    padding: 37px 6%;
+    height: 100vh;
+}
+
+.main-heading {
+
+    padding: 1px 6%;
+}
+
+.main-heading-part {
+
+    padding: 1px 6%;
+}
+
+.main-heading-part>h1 {
+    font-size: xxx-large;
+}
+
+.para-head-parent {
+    color: #000000;
+    font-weight: 500;
+    font-size: small;
+
+}
+
+.para-head-parent>p {
+    color: #000000bd;
+    font-weight: 500;
+    font-size: small;
+}
+
+
+.r-parent {
+    padding: 5px 3%;
+    /* border: solid #ff00002e 1px; */
+    font-size: 11px;
+    border-left: solid red 1px;
+    border-right-color: red;
+}
+
+.r-parent > a
+{
+    text-decoration: underline;
+}

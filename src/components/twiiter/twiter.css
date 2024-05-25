@@ -1,0 +1,73 @@
+.main-parent-twiiter {
+    position: relative;
+    padding: 10px 2%;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.h__twiiter {
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.head__sub-parent {
+    height: 100%;
+    position: relative;
+}
+
+/* .head__sub-parent__span {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 0px;
+    border: solid red 1px;
+} */
+
+/* .head__sub_p::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 0px;
+    border: solid red 1px;
+} */
+
+.head__sub_p {
+    font-size: small;
+    color: #000000bd;
+    height: 100%;
+    position: relative;
+    padding: 11px 17px;
+}
+
+.timeline__t {
+    position: absolute;
+    content: '';
+    margin: -1px -5px auto;
+    display: flex;
+    height: 86%;
+    /* background: black; */
+    width: 0px;
+    border: solid #00000066 1px;
+}
+
+.head__span {
+    position: absolute;
+    content: '';
+    margin: -1px -5px auto;
+    display: flex;
+    height: 100%;
+    /* background: black; */
+    width: 0px;
+    border: solid #00000066 1px;
+}
+
+.grand-parent-header {
+    height: 100vh;
+    overflow: scroll;
+    padding: 2px 24px;
+}
+
+#more {
+    display: none;
+}

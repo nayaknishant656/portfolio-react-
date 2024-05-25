@@ -1,13 +1,16 @@
 import React from 'react'
 import "./relativepath.css"
+import { FaBeer } from 'react-icons/fa';
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function relativepath({ item }) {
   const { id, title, des, tech, keypoints, img, date } = item;
   return (
     <div className='para'>
       {/* <h1 >{title}</h1> */}
-      <a href={img}><h1 className='title-heading'>{title}</h1></a>
-      <h2>{date}</h2>
+      <a className="link-main" href={img}><h1 className='title-heading'>{title}</h1><FaExternalLinkAlt /></a>
+      <h2>{date}
+      </h2>
       <div className='para-padding'>
         <span className='relative-line'></span>
         <p>{des}</p>

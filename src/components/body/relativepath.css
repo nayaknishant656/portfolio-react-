@@ -17,3 +17,8 @@
 {
     padding: 0px 10px;
 }
+.link-main
+{
+    display: flex;
+    align-items: center;
+}

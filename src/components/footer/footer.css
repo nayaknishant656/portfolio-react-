@@ -1,6 +1,28 @@
-.main-parent
-{
+.main-parent {
+    position: relative;
+    bottom: 0px;
     font-size: 12.2px;
     border-top: solid 1px black;
     padding: 20px 6%;
+    width: 100%;
+}
+
+.main-parent>p {
+    text-align: center;
+}
+
+
+/* @media screen and (max-width: 1500px) {
+    .main-parent {
+        position: absolute;
+    }
+} */
+
+
+
+@media screen and (max-width: 0px) and (min-width: 600px) {
+
+    .main-parent {
+        position: absolute;
+    }
 }
