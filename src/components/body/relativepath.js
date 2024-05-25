@@ -4,7 +4,7 @@ import { FaBeer } from 'react-icons/fa';
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function relativepath({ item }) {
-  const { id, title, des, tech, keypoints, img, date } = item;
+  const { id, title, des, tech, keypoints, img, date , feat} = item;
   return (
     <div className='para'>
       {/* <h1 >{title}</h1> */}

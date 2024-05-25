@@ -9,7 +9,8 @@
       "id": 1,
       "title": "Paardarshi",
       "date": "march/2024",
-      "des": "I builded for my Village,Paardarshi is a web-portal or a transparent mediumm which it helps donares to verify/check donated money authentically, fun fact about this project is that i builded all in youtube live",
+      "des": "I built a web portal called Paardarshi for my village. It is a transparent medium that helps donors verify and check their donated money authentically. A fun fact about this project is that I built it entirely on YouTube live.",
+      "feat": "SEARCHING,SORTING,RECIPT PRINTING,WHATSAPP SHAREABLE RECIPT",
       "img": "https://fron-pardar.vercel.app/",
       "tech": "React,javascript,html,css,react-router",
       "keypoints": [
@@ -23,7 +24,7 @@
       "id": 2,
       "title": "React E-commerce webapp",
       "date": "may/2023",
-      "des": "I builed in 2023 march when there was great rush for react javascript, fornutaluy due my javascript skills i was ablt to this webapp in 5 days before the peak of react and javscript rush",
+      "des": "I built a web app in March 2023 when there was a great rush for React and JavaScript. Fortunately, due to my JavaScript skills, I was able to complete this web app in 5 days before the peak of the React and JavaScript rush.",
       "img": "https://lustrous-moonbeam-ea4656.netlify.app/",
       "tech": "React,javascript,html,css,react-router",
       "keypoints": [
@@ -35,7 +36,7 @@
     },{
       "id": 3,
       "title": "Kissan",
-      "des": "It was simple startup back in time i build, for scaling i used many web scarping and builed a whatsapp bulk sender using wbm , got many responses , unfornutly i shut down now",
+      "des": "It was a simple startup I built back in the day. For scaling, I used many web scraping techniques and built a WhatsApp bulk sender using WBM. I got many responses, but unfortunately, I have shut it down now.",
       "img": "https://nawnitstudio.000webhostapp.com/rev/index.html",
       "tech": "Html,css,javascript",
       "keypoints": [
@@ -46,7 +47,7 @@
     },{
       "id": 4,
       "title": "Ppassport",
-      "des": "I Builed for a bussiness, where it helped people to get their passport photo by thier ID, Currently Active",
+      "des": "I built a business where it helped people get their passport photos using their ID. It is currently active.",
       "img": "https://nawnitstudio.000webhostapp.com/",
       "tech": "React,javascript,html,css,react-router",
       "keypoints": [
@@ -58,7 +59,7 @@
     },{
       "id": 5,
       "title": "Certificate Generator",
-      "des": "I builde for my village temple where main aim was to marketing and collecting large sum of money by generating certitvate and forcing people to put that photo on thier status",
+      "des": "I built a platform for my village temple where the main aim was to market and collect a large sum of money by generating certificates and encouraging people to put them as their Whatsapp status photos.so that it creates a social 'FOMO' in the society ",
       "img": "https://media.istockphoto.com/id/157742224/photo/classic-golden-picture-frame-with-clipping-path.jpg?s=1024x1024&w=is&k=20&c=NuY5HCjrpYvmlgGepiX5HvN7YjWgNixGlxMkwqoDakc=",
       "tech": "React,javascript,html,css,react-router",
       "keypoints": [
@@ -71,19 +72,19 @@
     {
       "id": 5,
       "title": "Nawnit Studio Prints",
-      "des": "I builded for my Village,Paardarshi is a web-portal or a transparent mediumm which it helps donares to verify/check donated money authentically",
+      "des": "It was a project that built me. When I was 16, the first wave of COVID-19 hit the country, and it was the second week of the 21-day quarantine. From that day to August 2020, I was totally into this project, building many registration forms, connecting to MySQL with PHP, and integrating payment gateways. It was the project that built my belief in myself.",
       "img": "https://nawnitstudio.000webhostapp.com/nawnit/index.html",
       "tech": "React,javascript,html,css,react-router",
       "keypoints": [
-        {  "text": "I builded Using React Js" },
-        {  "text": "It has Features like searching, sorting , recipt printing,whatsapp shareable recipt" },
+        {  "text": "I build using javascript" },
+        {  "text": "It has Features like UPLOADING IMAGES, PAYMENT GATEWAYS, SUGGESTION ," },
         {  "text": "Used MongoDb for Storing donares details" },
         {  "text": "Used Nodejs , Expressjs , javascript used , Node js for Backend" }
       ]
     },{
       "id": 5,
       "title": "OFFLINE",
-      "des": "I builded for my Village,Paardarshi is a web-portal or a transparent mediumm which it helps donares to verify/check donated money authentically",
+      "des": "its was a boredom project",
       "img": "https://media.istockphoto.com/id/157742224/photo/classic-golden-picture-frame-with-clipping-path.jpg?s=1024x1024&w=is&k=20&c=NuY5HCjrpYvmlgGepiX5HvN7YjWgNixGlxMkwqoDakc=",
       "tech": "React,javascript,html,css,react-router",
       "keypoints": [
@@ -95,7 +96,7 @@
     },{
       "id": 5,
       "title": "All in ones Movies",
-      "des": "I builded for my Village,Paardarshi is a web-portal or a transparent mediumm which it helps donares to verify/check donated money authentically",
+      "des": "i got 30k organic traffic ,by doing seo sort of things, i dont enjoy piracy things now",
       "img": "https://media.istockphoto.com/id/157742224/photo/classic-golden-picture-frame-with-clipping-path.jpg?s=1024x1024&w=is&k=20&c=NuY5HCjrpYvmlgGepiX5HvN7YjWgNixGlxMkwqoDakc=",
       "tech": "React,javascript,html,css,react-router",
       "keypoints": [
