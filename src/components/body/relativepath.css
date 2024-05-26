@@ -5,7 +5,7 @@
 
 .bullet-points-ul
 {
-    padding: 8px 8%;
+    padding: 8px 3%;
 }
 
 .bullet-points-ul > li 
@@ -25,5 +25,10 @@
 .feat-list
 {
     text-transform: uppercase;
-
+}
+.para_pad_des
+{
+    position: relative;
+    padding: 5px 1%;
+    font-weight: 600;
 }

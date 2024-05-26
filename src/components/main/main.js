@@ -9,7 +9,7 @@ export default function main() {
           <div className='main-heading-part'>
             <h1>hey, nishant this side</h1>
             <div className='para-head-parent'>
-              <p> <br></br>I am a web developer and a product designer. I believe in impacting society and helping society by means of technology. <br></br> <br></br>I have built many projects that have helped people by providing more efficient and easier means.<br></br> <br></br>I have expertise in finding solutions to problems and learning through documentation</p>
+              <p> <br></br>I am a software developer and a product designer. I believe in impacting society and helping society by means of technology. <br></br> <br></br>I have built many projects that have helped people by providing more efficient and easier means software platform.<br></br> <br></br>I have expertise in finding solutions of problems and learning through documentation</p>
               <br></br><p>Created many robust systems, frontend and backend, chat systems, and live-streaming platforms.<br></br><br></br> </p>
               </div>
             <div className='r-parent'>

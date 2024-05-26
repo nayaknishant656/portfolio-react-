@@ -13,7 +13,7 @@ export default function relativepath({ item }) {
       </h2>
       <div className='para-padding'>
         <span className='relative-line'></span>
-        <p>{des}</p>
+        <p className='para_pad_des'>{des}</p>
         <div className='bullet-points'>
           <ul className='bullet-points-ul'>
           {keypoints?.map((item) => (

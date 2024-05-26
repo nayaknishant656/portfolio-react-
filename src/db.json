@@ -12,7 +12,7 @@
       "des": "I built a web portal called Paardarshi for my village. It is a transparent medium that helps donors verify and check their donated money authentically. A fun fact about this project is that I built it entirely on YouTube live.",
       "feat": "SEARCHING,SORTING,RECIPT PRINTING,WHATSAPP SHAREABLE RECIPT",
       "img": "https://fron-pardar.vercel.app/",
-      "tech": "React,javascript,html,css,react-router",
+      "tech": "React,javascript,,css,react-router",
       "keypoints": [
         {  "text": "I builded Using React Js" },
         {  "text": "It has Features like searching, sorting , recipt printing,whatsapp shareable recipt" },
@@ -26,7 +26,7 @@
       "date": "may/2023",
       "des": "I built a web app in March 2023 when there was a great rush for React and JavaScript. Fortunately, due to my JavaScript skills, I was able to complete this web app in 5 days before the peak of the React and JavaScript rush.",
       "img": "https://lustrous-moonbeam-ea4656.netlify.app/",
-      "tech": "React,javascript,html,css,react-router",
+      "tech": "React,javascript,,css,react-router",
       "keypoints": [
         {  "text": "Used react-router,owl coursel" },
         {  "text": "Funcationality:- Add to cart, Check-out page, and many great react hooks" },
@@ -37,10 +37,10 @@
       "id": 3,
       "title": "Kissan",
       "des": "It was a simple startup I built back in the day. For scaling, I used many web scraping techniques and built a WhatsApp bulk sender using WBM. I got many responses, but unfortunately, I have shut it down now.",
-      "img": "https://nawnitstudio.000webhostapp.com/rev/index.html",
-      "tech": "Html,css,javascript",
+      "img": "https://nawnitstudio.000webhostapp.com/rev/index.",
+      "tech": ",css,javascript",
       "keypoints": [
-        {  "text": "Builded Fronted Using HTML,Css and javascript" },
+        {  "text": "Builded Fronted Using ,Css and javascript" },
         {  "text": "integrated a whatsapp api to send data" },
         {  "text": "Builded a all offical fronted site" }
       ]
@@ -49,7 +49,7 @@
       "title": "Ppassport",
       "des": "I built a business where it helped people get their passport photos using their ID. It is currently active.",
       "img": "https://nawnitstudio.000webhostapp.com/",
-      "tech": "React,javascript,html,css,react-router",
+      "tech": "React,javascript,,css,react-router",
       "keypoints": [
         {  "text": "I builded Using React Js" },
         {  "text": "It has Features like searching, sorting , recipt printing,whatsapp shareable recipt" },
@@ -61,7 +61,7 @@
       "title": "Certificate Generator",
       "des": "I built a platform for my village temple where the main aim was to market and collect a large sum of money by generating certificates and encouraging people to put them as their Whatsapp status photos.so that it creates a social 'FOMO' in the society ",
       "img": "https://media.istockphoto.com/id/157742224/photo/classic-golden-picture-frame-with-clipping-path.jpg?s=1024x1024&w=is&k=20&c=NuY5HCjrpYvmlgGepiX5HvN7YjWgNixGlxMkwqoDakc=",
-      "tech": "React,javascript,html,css,react-router",
+      "tech": "React,javascript,,css,react-router",
       "keypoints": [
         {  "text": "I builded Using React Js" },
         {  "text": "It has Features like searching, sorting , recipt printing,whatsapp shareable recipt" },
@@ -73,8 +73,8 @@
       "id": 5,
       "title": "Nawnit Studio Prints",
       "des": "It was a project that built me. When I was 16, the first wave of COVID-19 hit the country, and it was the second week of the 21-day quarantine. From that day to August 2020, I was totally into this project, building many registration forms, connecting to MySQL with PHP, and integrating payment gateways. It was the project that built my belief in myself.",
-      "img": "https://nawnitstudio.000webhostapp.com/nawnit/index.html",
-      "tech": "React,javascript,html,css,react-router",
+      "img": "https://nawnitstudio.000webhostapp.com/nawnit/index.",
+      "tech": "React,javascript,,css,react-router",
       "keypoints": [
         {  "text": "I build using javascript" },
         {  "text": "It has Features like UPLOADING IMAGES, PAYMENT GATEWAYS, SUGGESTION ," },
@@ -86,7 +86,7 @@
       "title": "OFFLINE",
       "des": "its was a boredom project",
       "img": "https://media.istockphoto.com/id/157742224/photo/classic-golden-picture-frame-with-clipping-path.jpg?s=1024x1024&w=is&k=20&c=NuY5HCjrpYvmlgGepiX5HvN7YjWgNixGlxMkwqoDakc=",
-      "tech": "React,javascript,html,css,react-router",
+      "tech": "React,javascript,,css,react-router",
       "keypoints": [
         {  "text": "I builded Using React Js" },
         {  "text": "It has Features like searching, sorting , recipt printing,whatsapp shareable recipt" },
@@ -98,7 +98,7 @@
       "title": "All in ones Movies",
       "des": "i got 30k organic traffic ,by doing seo sort of things, i dont enjoy piracy things now",
       "img": "https://media.istockphoto.com/id/157742224/photo/classic-golden-picture-frame-with-clipping-path.jpg?s=1024x1024&w=is&k=20&c=NuY5HCjrpYvmlgGepiX5HvN7YjWgNixGlxMkwqoDakc=",
-      "tech": "React,javascript,html,css,react-router",
+      "tech": "React,javascript,,css,react-router",
       "keypoints": [
         {  "text": "I builded Using React Js" },
         {  "text": "It has Features like searching, sorting , recipt printing,whatsapp shareable recipt" },

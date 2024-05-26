@@ -7,10 +7,9 @@
     width: 100%;
 }
 
-.main-parent>p {
+.main-parent>p  {
     text-align: center;
 }
-
 
 /* @media screen and (max-width: 1500px) {
     .main-parent {
@@ -25,4 +24,5 @@
     .main-parent {
         position: absolute;
     }
+    
 }
