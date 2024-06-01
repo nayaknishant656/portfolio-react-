@@ -37,7 +37,7 @@
       "id": 3,
       "title": "Kissan",
       "des": "It was a simple startup I built back in the day. For scaling, I used many web scraping techniques and built a WhatsApp bulk sender using WBM. I got many responses, but unfortunately, I have shut it down now.",
-      "img": "https://nawnitstudio.000webhostapp.com/rev/index.",
+      "img": "https://nawnitstudio.000webhostapp.com/rev/index.html",
       "tech": ",css,javascript",
       "keypoints": [
         {  "text": "Builded Fronted Using ,Css and javascript" },
@@ -60,7 +60,7 @@
       "id": 5,
       "title": "Certificate Generator",
       "des": "I built a platform for my village temple where the main aim was to market and collect a large sum of money by generating certificates and encouraging people to put them as their Whatsapp status photos.so that it creates a social 'FOMO' in the society ",
-      "img": "https://media.istockphoto.com/id/157742224/photo/classic-golden-picture-frame-with-clipping-path.jpg?s=1024x1024&w=is&k=20&c=NuY5HCjrpYvmlgGepiX5HvN7YjWgNixGlxMkwqoDakc=",
+      "img": "https://nawnitstudio.000webhostapp.com/certificate/index.html",
       "tech": "React,javascript,,css,react-router",
       "keypoints": [
         {  "text": "I builded Using React Js" },
@@ -73,7 +73,7 @@
       "id": 5,
       "title": "Nawnit Studio Prints",
       "des": "It was a project that built me. When I was 16, the first wave of COVID-19 hit the country, and it was the second week of the 21-day quarantine. From that day to August 2020, I was totally into this project, building many registration forms, connecting to MySQL with PHP, and integrating payment gateways. It was the project that built my belief in myself.",
-      "img": "https://nawnitstudio.000webhostapp.com/nawnit/index.",
+      "img": "https://nawnitstudio.000webhostapp.com/nawnit/index.html",
       "tech": "React,javascript,,css,react-router",
       "keypoints": [
         {  "text": "I build using javascript" },
@@ -85,7 +85,7 @@
       "id": 5,
       "title": "OFFLINE",
       "des": "its was a boredom project",
-      "img": "https://media.istockphoto.com/id/157742224/photo/classic-golden-picture-frame-with-clipping-path.jpg?s=1024x1024&w=is&k=20&c=NuY5HCjrpYvmlgGepiX5HvN7YjWgNixGlxMkwqoDakc=",
+      "img": "https://nawnitstudio.000webhostapp.com/oac/index.html",
       "tech": "React,javascript,,css,react-router",
       "keypoints": [
         {  "text": "I builded Using React Js" },
