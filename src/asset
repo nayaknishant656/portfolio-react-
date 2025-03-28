@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Samadhani Platform",
     "date": "March/2024",
-    "des": "I built a web platform called Samadhani, which provides a streamlined solution for conflict resolution and feedback management. The platform allows users to submit grievances and track responses in a structured and transparent way.",
+    "des": "I built a web platform called Samadhani, which provides a Services To the Customers",
     "img": "https://nawnit-production.vercel.app/",
     "tech": "React, JavaScript, CSS, React-Router",
     "keypoints": [
@@ -14,7 +14,7 @@
         "text": "Features include grievance submission, response tracking, and real-time status updates."
       },
       {
-        "text": "Utilized MongoDB for storing user submissions and feedback."
+        "text": "Desing Monogdb Scheme , Deployed My Own HTTP Server , Wrote CRUD , regex and every single line by myself"
       },
       {
         "text": "Backend built with Node.js and Express.js."
