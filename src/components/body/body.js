@@ -7,7 +7,6 @@ import Footer from "../footer/footer"
 export default function body() {
   return (
     <>
-      
         <div className='parent-para-circle'>
           <div className='parent-header p-8 border-red-500'>
         <div className='header-main '>
