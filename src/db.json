@@ -1,187 +1,188 @@
 [
   {
     "id": 1,
-    "title": "Currently Researching In Large language Model",
-    "date": "april/2024",
-    "des": "currently figuring out , llm , understading transformer and other stuff ,  looking forward a to build a llm project for my self, where i will process all my personal notes and will convert into question answer"
-  },
-  {
-    "id": 1,
-    "title": "Paardarshi",
-    "date": "march/2024",
-    "des": "I built a web portal called Paardarshi for my village. It is a transparent medium that helps donors verify and check their donated money authentically. A fun fact about this project is that I built it entirely on YouTube live.",
-    "feat": "SEARCHING,SORTING,RECIPT PRINTING,WHATSAPP SHAREABLE RECIPT",
-    "img": "https://fron-pardar.vercel.app/",
-    "tech": "React,javascript,,css,react-router",
+    "title": "Samadhani Platform",
+    "date": "March/2024",
+    "des": "I built a web platform called Samadhani, which provides a streamlined solution for conflict resolution and feedback management. The platform allows users to submit grievances and track responses in a structured and transparent way.",
+    "img": "https://nawnit-production.vercel.app/",
+    "link": "https://backend-chi-woad.vercel.app/shoes/66c5f6b59c8670f76b41fc11",
+    "tech": "React, JavaScript, CSS, React-Router, Node , Express, Mongodb",
     "keypoints": [
       {
-        "text": "I builded Using React Js"
+        "text": "Built using React.js for the frontend."
       },
       {
-        "text": "It has Features like searching, sorting , recipt printing,whatsapp shareable recipt"
+        "text": "Developed my own HTTP server , wrote crud api, regex , Used Express JS and Monodb "
       },
       {
-        "text": "Used MongoDb for Storing donares details"
+        "text": "Developed and Deployed the HTTP Server"
       },
       {
-        "text": "Used Nodejs , Expressjs , javascript used , Node js for Backend"
+        "text": "Use Carousel and loading components for frontend and Used bunch of react and Js library and made Responsive For All Devices"
       }
     ]
   },
   {
     "id": 2,
-    "title": "React E-commerce webapp",
-    "date": "may/2023",
-    "des": "I built a web app in March 2023 when there was a great rush for React and JavaScript. Fortunately, due to my JavaScript skills, I was able to complete this web app in 5 days before the peak of the React and JavaScript rush.",
-    "img": "https://lustrous-moonbeam-ea4656.netlify.app/",
-    "tech": "React,javascript,,css,react-router",
+    "title": "Paardarshi",
+    "date": "March/2024",
+    "des": "I built a web portal called Paardarshi for my village. It is a transparent medium that helps donors verify and check their donated money authentically. A fun fact about this project is that I built it entirely on YouTube live.",
+    "img": "https://fron-pardar.vercel.app/",
+    "link": "https://backend-chi-woad.vercel.app/shoes",
+    "tech": "React, JavaScript, CSS, React-Router, Node , Express, Mongodb",
     "keypoints": [
       {
-        "text": "Used react-router,owl coursel"
+        "text": "Built using React.js."
       },
       {
-        "text": "Funcationality:- Add to cart, Check-out page, and many great react hooks"
+        "text": "Features include searching, sorting, receipt printing, and WhatsApp shareable receipts."
       },
       {
-        "text": "Used Javascript libraries like Fabric canvas, Coursel image "
+        "text": "Add Certificate Generation Feature and Added funcationality Of Download in Jpg, Responsive Design"
       },
       {
-        "text": "Used Nodejs , Expressjs , javascript used , Node js for Backend"
+        "text": "Backend developed with Node.js and Express.js."
       }
     ]
   },
   {
     "id": 3,
-    "title": "React-ChatRoom-Frontend ",
-    "des": "It was a Project Assign to me for a Interview in 2023 july by some Engernering senitoe for a Startup, i got shortlisted but due academic I Didnt accepted the offer",
-    "img": "https://react-chat-room-frontend.vercel.app/ ",
-    "tech": ",css,javascript",
+    "title": "React E-commerce Webapp",
+    "date": "May/2023",
+    "des": "I built a web app in March 2023 when there was a great rush for React and JavaScript. Fortunately, due to my JavaScript skills, I was able to complete this web app in 5 days before the peak of the React and JavaScript rush.",
+    "img": "https://lustrous-moonbeam-ea4656.netlify.app/",
+    "tech": "React, JavaScript, CSS, React-Router",
     "keypoints": [
       {
-        "text": "Builded Fronted Using ,Css and javascript"
+        "text": "Used React-Router and Owl Carousel."
+      },
+      {
+        "text": "Functionality: Add to cart, checkout page, and various React hooks."
+      },
+      {
+        "text": "Used JavaScript libraries like Fabric.js and Image Carousel."
+      },
+      {
+        "text": "Backend developed with Node.js, Express.js, and JavaScript."
       }
     ]
   },
   {
     "id": 4,
-    "title": "Kissan",
-    "des": "It was a simple startup I built back in the day. For scaling, I used many web scraping techniques and built a WhatsApp bulk sender using WBM. I got many responses, but unfortunately, I have shut it down now.",
-    "img": "https://nawnitstudio.000webhostapp.com/rev/index.html",
-    "tech": ",css,javascript",
+    "title": "React-ChatRoom-Frontend",
+    "date": "May/2023",
+    "des": "This project was assigned to me during an interview in July 2023 for a startup. I got shortlisted, but due to academic commitments, I didn't accept the offer.",
+    "img": "https://react-chat-room-frontend.vercel.app/",
+    "tech": "CSS, JavaScript",
     "keypoints": [
       {
-        "text": "Builded Fronted Using ,Css and javascript"
-      },
-      {
-        "text": "integrated a whatsapp api to send data"
-      },
-      {
-        "text": "Builded a all offical fronted site"
+        "text": "Built frontend using CSS and JavaScript."
       }
     ]
   },
   {
     "id": 5,
-    "title": "Ppassport",
-    "des": "I built a business where it helped people get their passport photos using their ID. It is currently active.",
-    "img": "https://nawnitstudio.000webhostapp.com/",
-    "tech": "React,javascript,,css,react-router",
+    "title": "Kissan",
+    "date": "May/2023",
+    "des": "It was a simple startup I built back in the day. For scaling, I used various web scraping techniques and built a WhatsApp bulk sender using WBM. I received many responses, but unfortunately, I had to shut it down.",
+    "img": "https://nawnitstudio.000webhostapp.com/rev/index.html",
+    "tech": "CSS, JavaScript",
     "keypoints": [
       {
-        "text": "I builded Using React Js"
+        "text": "Built frontend using CSS and JavaScript."
       },
       {
-        "text": "It has Features like searching, sorting , recipt printing,whatsapp shareable recipt"
+        "text": "Integrated a WhatsApp API for data transmission."
       },
       {
-        "text": "Used MongoDb for Storing donares details"
-      },
-      {
-        "text": "Used Nodejs , Expressjs , javascript used , Node js for Backend"
+        "text": "Developed a fully functional official site."
       }
     ]
   },
   {
     "id": 6,
-    "title": "Certificate Generator",
-    "des": "I built a platform for my village temple where the main aim was to market and collect a large sum of money by generating certificates and encouraging people to put them as their Whatsapp status photos.so that it creates a social 'FOMO' in the society ",
-    "img": "https://nawnitstudio.000webhostapp.com/certificate/index.html",
-    "tech": "React,javascript,,css,react-router",
+    "title": "Ppassport",
+    "date": "August/2021",
+    "des": "I built a business that helps people get their passport photos using their ID. It is currently active.",
+    "img": "https://nawnitstudio.000webhostapp.com/",
+    "tech": "React, JavaScript, CSS, React-Router",
     "keypoints": [
       {
-        "text": "I builded Using React Js"
+        "text": "Built Using , HTML, CSS, PHP, MYSQLDB"
       },
       {
-        "text": "It has Features like searching, sorting , recipt printing,whatsapp shareable recipt"
+        "text": "Developed Interface for both Interface , image Upload, Image Fetch"
       },
       {
-        "text": "Used MongoDb for Storing donares details"
+        "text": "used Php to connect to MYSQL database , Design the Database Scheme, Perfomred data upload and data Fetching"
       },
       {
-        "text": "Used Nodejs , Expressjs , javascript used , Node js for Backend"
+        "text": "Key funcationality :- Image Upload , Image Fetching"
       }
     ]
   },
   {
     "id": 7,
-    "title": "Nawnit Studio Prints",
-    "des": "It was a project that built me. When I was 16, the first wave of COVID-19 hit the country, and it was the second week of the 21-day quarantine. From that day to August 2020, I was totally into this project, building many registration forms, connecting to MySQL with PHP, and integrating payment gateways. It was the project that built my belief in myself.",
-    "img": "https://nawnitstudio.000webhostapp.com/nawnit/index.html",
-    "tech": "React,javascript,,css,react-router",
+    "title": "Certificate Generator",
+    "date": "August/2022",
+    "des": "I built a platform for my village temple where the main aim was to market and collect donations by generating certificates. The idea was to encourage people to put these certificates as their WhatsApp status to create social 'FOMO' in the community.",
+    "img": "https://nawnitstudio.000webhostapp.com/certificate/index.html",
+    "tech": "React, JavaScript, CSS, React-Router",
     "keypoints": [
       {
-        "text": "I build using javascript"
+        "text": "Built using React.js."
       },
       {
-        "text": "It has Features like UPLOADING IMAGES, PAYMENT GATEWAYS, SUGGESTION ,"
+        "text": "Features include searching, sorting, receipt printing, and WhatsApp shareable receipts."
       },
       {
-        "text": "Used MongoDb for Storing donares details"
+        "text": "Used MongoDB for storing donor details."
       },
       {
-        "text": "Used Nodejs , Expressjs , javascript used , Node js for Backend"
+        "text": "Backend developed with Node.js and Express.js."
       }
     ]
   },
   {
     "id": 8,
-    "title": "OFFLINE",
-    "des": "its was a boredom project",
-    "img": "https://nawnitstudio.000webhostapp.com/oac/index.html",
-    "tech": "React,javascript,,css,react-router",
+    "title": "Nawnit Studio Prints",
+    "date": "april/2021",
+    "des": "This project built my confidence. When I was 16, during the first wave of COVID-19 in the second week of the 21-day quarantine, I started this project. From then until August 2020, I worked on building multiple registration forms, integrating MySQL with PHP, and setting up payment gateways.",
+    "img": "https://nawnitstudio.000webhostapp.com/nawnit/index.html",
+    "tech": "React, JavaScript, CSS, React-Router",
     "keypoints": [
       {
-        "text": "I builded Using React Js"
+        "text": "Built using JavaScript."
       },
       {
-        "text": "It has Features like searching, sorting , recipt printing,whatsapp shareable recipt"
+        "text": "Features include image uploads, payment gateways, and user suggestions."
       },
       {
-        "text": "Used MongoDb for Storing donares details"
+        "text": "Used MongoDB for storing donor details."
       },
       {
-        "text": "Used Nodejs , Expressjs , javascript used , Node js for Backend"
+        "text": "Backend developed with Node.js and Express.js."
       }
     ]
   },
   {
     "id": 9,
-    "title": "All in ones Movies",
-    "des": "i got 30k organic traffic ,by doing seo sort of things, i dont enjoy piracy things now",
-    "img": "https://media.istockphoto.com/id/157742224/photo/classic-golden-picture-frame-with-clipping-path.jpg?s=1024x1024&w=is&k=20&c=NuY5HCjrpYvmlgGepiX5HvN7YjWgNixGlxMkwqoDakc=",
-    "tech": "React,javascript,,css,react-router",
+    "title": "OFFLINE",
+    "des": "A boredom project I worked on for fun.",
+    "img": "https://nawnitstudio.000webhostapp.com/oac/index.html",
+    "tech": "React, JavaScript, CSS, React-Router",
     "keypoints": [
       {
-        "text": "I builded Using React Js"
+        "text": "Built using React.js."
       },
       {
-        "text": "It has Features like searching, sorting , recipt printing,whatsapp shareable recipt"
+        "text": "Features include searching, sorting, receipt printing, and WhatsApp shareable receipts."
       },
       {
-        "text": "Used MongoDb for Storing donares details"
+        "text": "Used MongoDB for storing donor details."
       },
       {
-        "text": "Used Nodejs , Expressjs , javascript used , Node js for Backend"
+        "text": "Backend developed with Node.js and Express.js."
       }
     ]
   }

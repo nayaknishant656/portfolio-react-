@@ -17,7 +17,7 @@ function App() {
          <Route exact path="/Body" render={props => <Body />} />
          <Route exact path="/Twitter" render={props => <Twiiter />} />
         </Switch>
-        <Footer/> </>
+       </>
   );
 }
 export default App;

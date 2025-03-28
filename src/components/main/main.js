@@ -1,8 +1,11 @@
 import React from 'react'
 import {Link } from "react-router-dom";
 import "./main.css";
+import Footer from "../footer/footer"
 export default function main() {
   return (
+    <>
+    
     <div className='parent-name-heading'>
       <div className='second-parent-name'>
         <div className='main-heading'>
@@ -24,5 +27,7 @@ export default function main() {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   )
 }
