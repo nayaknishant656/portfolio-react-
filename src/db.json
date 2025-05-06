@@ -1,5 +1,27 @@
 [
   {
+    "id": 1,
+    "title": "Doctor_AI",
+    "date": "March/2025",
+    "des": "Doctor_AI is the online Blood report Analysis webapp , where it analysis your blood report pdf and gives you brief information about your blood health ",
+    "img": "https://doctor-ai-one.vercel.app/",
+    "link": "",
+    "tech": "Next JS, JavaScript, CSS, typescript, Node , ",
+    "keypoints": [
+      {
+        "text": "Built using Next.js."
+      },
+      {
+        "text": "Developed 2 microservices to parse the pdf and analyze the pdf "
+      },
+      {
+        "text": "Used Gemini 2.0 model for the analysis of pdf "
+      },
+      {
+        "text": Currently developing the analysis dashboard and additional features like download report, whatsapp shareable link , and best doctor recommendation system to recommend you best doctor in your region for your health diagnostic based on your blood analysis health report "
+      }
+    ]
+  },{
     "id": 2,
     "title": "Paardarshi",
     "date": "March/2024",
@@ -9,13 +31,13 @@
     "tech": "React, JavaScript, CSS, React-Router, Node , Express, Mongodb",
     "keypoints": [
       {
-        "text": "Built using React.js."
+        "text": "Built using React.js., Developed own http server using express js , it has features of searching, sorting , search by id , used mongoose and mongodb for database"
       },
       {
         "text": "Features include searching, sorting, receipt printing, and WhatsApp shareable receipts."
       },
       {
-        "text": "Add Certificate Generation Feature and Added funcationality Of Download in Jpg, Responsive Design"
+        "text": "Add Certificate image Generation Feature and Added funcationality Of Download in Jpg, Responsive Design in all devices"
       },
       {
         "text": "Backend developed with Node.js and Express.js."
@@ -37,7 +59,7 @@
         "text": "Functionality: Add to cart, checkout page, and various React hooks."
       },
       {
-        "text": "Used JavaScript libraries like Fabric.js and Image Carousel."
+        "text": "Used JavaScript libraries like Fabric.js and Image Carousel. responsive in all devices"
       },
       {
         "text": "Backend developed with Node.js, Express.js, and JavaScript."
