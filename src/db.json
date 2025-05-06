@@ -1,28 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Samadhani Platform",
-    "date": "March/2024",
-    "des": "I built a web platform called Samadhani, which provides a streamlined solution for conflict resolution and feedback management. The platform allows users to submit grievances and track responses in a structured and transparent way.",
-    "img": "https://nawnit-production.vercel.app/",
-    "link": "https://backend-chi-woad.vercel.app/shoes/66c5f6b59c8670f76b41fc11",
-    "tech": "React, JavaScript, CSS, React-Router, Node , Express, Mongodb",
-    "keypoints": [
-      {
-        "text": "Built using React.js for the frontend."
-      },
-      {
-        "text": "Developed my own HTTP server , wrote crud api, regex , Used Express JS and Monodb "
-      },
-      {
-        "text": "Developed and Deployed the HTTP Server"
-      },
-      {
-        "text": "Use Carousel and loading components for frontend and Used bunch of react and Js library and made Responsive For All Devices"
-      }
-    ]
-  },
-  {
     "id": 2,
     "title": "Paardarshi",
     "date": "March/2024",
