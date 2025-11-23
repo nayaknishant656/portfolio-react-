@@ -7,6 +7,8 @@ import Twiiter from "./components/twiiter/twiter"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Switch } from "react-router";
 import Main from "./components/main/main"; 
+import Timeline from './components/timeline/timeline';
+import Blogs from './components/blogs/blogs';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
          <Route exact path="/" render={props => <Main />} />
          <Route exact path="/Body" render={props => <Body />} />
          <Route exact path="/Twitter" render={props => <Twiiter />} />
+          <Route exact path="/Timeline" render={props => <Timeline />} />
+          <Route exact path="/Blogs" render={props => <Blogs />} />
         </Switch>
        </>
   );

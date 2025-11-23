@@ -14,6 +14,8 @@ export default function index() {
                     <ul className='ul-flex'>
                     <Link to="/" className="ul-link">Home</Link>
                     <Link to="twitter" className="ul-link">boredom</Link>
+                    <Link to="timeline" className="ul-link">Hot Code</Link>
+                    <Link to="Blogs" className="ul-link">Blogs</Link>
                     </ul>
                 </nav>
             </div>
