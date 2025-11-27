@@ -16,6 +16,8 @@ export default function index() {
                     <Link to="twitter" className="ul-link">boredom</Link>
                     <Link to="timeline" className="ul-link">Hot Code</Link>
                     <Link to="Blogs" className="ul-link">Blogs</Link>
+                    <Link to="Gallery" className="ul-link">Gallery</Link>
+                    <Link to="videos" className="ul-link">Videos</Link>
                     </ul>
                 </nav>
             </div>

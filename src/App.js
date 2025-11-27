@@ -9,7 +9,8 @@ import { Switch } from "react-router";
 import Main from "./components/main/main"; 
 import Timeline from './components/timeline/timeline';
 import Blogs from './components/blogs/blogs';
-
+import Gallery from './components/gallery/gallery';
+import Asymmetry from './components/asymmetry/asymmetry';
 function App() {
   return (
    <>
@@ -20,6 +21,8 @@ function App() {
          <Route exact path="/Twitter" render={props => <Twiiter />} />
           <Route exact path="/Timeline" render={props => <Timeline />} />
           <Route exact path="/Blogs" render={props => <Blogs />} />
+          <Route exact path="/Gallery" render={props => <Gallery/>} />
+          <Route exact path="/videos" render={props => <Asymmetry />} />
         </Switch>
        </>
   );
