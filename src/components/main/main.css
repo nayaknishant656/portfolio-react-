@@ -15,9 +15,10 @@
 .main-heading-part {
 
     padding: 1px 6%;
+    font-size: 30px;
 }
 
-.main-heading-part>h1 {
+.main-heading-part-typewriter> h1 {
     font-size: xxx-large;
 }
 
