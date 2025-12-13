@@ -10,7 +10,7 @@ import Main from "./components/main/main";
 import Timeline from './components/timeline/timeline';
 import Blogs from './components/blogs/blogs';
 import Gallery from './components/gallery/gallery';
-import Asymmetry from './components/asymmetry/asymmetry';
+import Youtubeblog from './components/Youtubeblog/youtubeblog'
 function App() {
   return (
    <>
@@ -22,7 +22,7 @@ function App() {
           <Route exact path="/Timeline" render={props => <Timeline />} />
           <Route exact path="/Blogs" render={props => <Blogs />} />
           <Route exact path="/Gallery" render={props => <Gallery/>} />
-          <Route exact path="/videos" render={props => <Asymmetry />} />
+          <Route exact path="/Youtubeblog" render={props => <Youtubeblog/>} />
         </Switch>
        </>
   );

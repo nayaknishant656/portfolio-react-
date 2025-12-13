@@ -2,7 +2,7 @@ import React from 'react'
 import "./body.css"
 import Relative from "./relativepath"
 import data from "../../db.json"
-import Footer from "../footer/footer"
+// import Footer from "../footer/footer"
 
 export default function body() {
   return (
@@ -21,7 +21,7 @@ export default function body() {
             {data?.map((item) => (
               <Relative item={item} key={item.id}/>
             ))};
-            <Footer/>
+            {/* <Footer/> */}
           </div>
         </div>
       </div>

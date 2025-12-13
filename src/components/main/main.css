@@ -47,3 +47,8 @@
 {
     text-decoration: underline;
 }
+
+.uc__card {
+    padding: 10px 10px;
+    margin: 10px 10px;
+}

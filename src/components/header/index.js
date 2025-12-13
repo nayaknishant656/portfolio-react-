@@ -18,6 +18,7 @@ export default function index() {
                     <Link to="Blogs" className="ul-link">Blogs</Link>
                     <Link to="Gallery" className="ul-link">Gallery</Link>
                     <Link to="videos" className="ul-link">Videos</Link>
+                    <Link to="Youtubeblog" className="ul-link">YoutubeBlog</Link>
                     </ul>
                 </nav>
             </div>
