@@ -73,7 +73,7 @@ export default function main() {
                     </div>
                   </div>
                    <div className='tech-svg-backend'>
-                    <h3>Devops/Cloud</h3>
+                    <h3>Devops/Cloud/Nishant</h3>
                     <div className='tech-svg-icon flex'>
                       <Appwrite className="Appwrite" />
                       <Anthropic />
