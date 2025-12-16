@@ -32,6 +32,7 @@ export default function main() {
                 <p> <br></br>I am a software developer and a product designer. I believe in impacting society and helping society by means of technology. <br></br>I have expertise in finding solutions of problems and learning through documentation</p>
                 <p>Created many robust systems, frontend and backend, chat systems, and live-streaming platforms.<br></br><br></br> </p>
                 <p>COntribtuion it should i have contributed to the github profile</p>
+                <p>contribution has shown into my zccount lets check this this side of contribution to this side</p>
               </div>
 
 
