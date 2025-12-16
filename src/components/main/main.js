@@ -3,6 +3,7 @@ import "./main.css";
 import Typewriter from 'typewriter-effect';
 import { Appwrite, Anthropic, NextJs, NodeJs } from "developer-icons";
 import FooterNavigation from "./Footernavigation"
+import Techstack from './techstack';
 import BlogsList from './BlogsList';
 import Projects from './projects';
 export default function main() {
@@ -29,61 +30,12 @@ export default function main() {
               />
               <div className='para-head-parent'>
                 <p> <br></br>I am a software developer and a product designer. I believe in impacting society and helping society by means of technology. <br></br>I have expertise in finding solutions of problems and learning through documentation</p>
-                <p>Created manyyyyy robust systems, frontend and backend, chat systems, and live-streaming platforms.<br></br><br></br> </p>
+                <p>Created many robust systems, frontend and backend, chat systems, and live-streaming platforms.<br></br><br></br> </p>
               </div>
 
 
 
-              <div className='tect-svg-grandparent'>
-                <div className='tech-svg-parent'>
-                   <div className='tech-svg-backend'>
-                    <h3>AI Agents / AI infrastructure </h3>
-                    <div className='tech-svg-icon flex'>
-                      <Appwrite className="Appwrite" />
-                      <Anthropic />
-                      <NextJs />
-                      <NodeJs />
-                    </div>
-                  </div>
-                  <div className='tech-svg-backend'>
-                    <h3>Frontend</h3>
-                    <div className='tech-svg-icon flex'>
-                      <Appwrite className="Appwrite" />
-                      <Anthropic />
-                      <NextJs />
-                      <NodeJs />
-                    </div>
-                  </div>
-                  <div className='tech-svg-backend'>
-                    <h3>Backend</h3>
-                    <div className='tech-svg-icon flex'>
-                      <Appwrite className="Appwrite" />
-                      <Anthropic />
-                      <NextJs />
-                      <NodeJs />
-                    </div>
-                  </div>
-                  <div className='tech-svg-backend'>
-                    <h3>Security</h3>
-                    <div className='tech-svg-icon flex'>
-                      <Appwrite className="Appwrite" />
-                      <Anthropic />
-                      <NextJs />
-                      <NodeJs />
-                    </div>
-                  </div>
-                   <div className='tech-svg-backend'>
-                    <h3>Devops/Cloud/Nishant</h3>
-                    <div className='tech-svg-icon flex'>
-                      <Appwrite className="Appwrite" />
-                      <Anthropic />
-                      <NextJs />
-                      <NodeJs />
-                    </div>
-                  </div>
-
-                </div>
-              </div>
+           <Techstack/>
               <Projects/>
                <BlogsList/>
              <FooterNavigation/>
