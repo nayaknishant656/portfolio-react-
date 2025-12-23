@@ -20,6 +20,7 @@ export default function index() {
                     <Link to="videos" className="ul-link">Videos</Link>
                     <Link to="Youtubeblog" className="ul-link">YoutubeBlog</Link>
                     <p>this should reflect this on my profile</p>
+                    <p>this is check for the github reflection on the github repository</p>
                     </ul>
                 </nav>
             </div>
