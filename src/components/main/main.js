@@ -33,6 +33,8 @@ export default function main() {
                 <p>Created many robust systems, frontend and backend, chat systems, and live-streaming platforms.<br></br><br></br> </p>
                 <p>COntribtuion it should i have contributed to the github profile</p>
                 <p>contribution has shown into my zccount lets check this this side of contribution to this side</p>
+                <p>it should added to the github</p>
+                <p>gadi mai dalo isko</p>
               </div>
 
 
