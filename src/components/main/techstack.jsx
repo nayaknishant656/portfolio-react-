@@ -1,5 +1,6 @@
 import React from 'react';
-
+// import { DeepSeek } from '@lobehub/icons';
+import { NextJs, NodeJs, Appwrite , DeepSeek , Tensorflow, CSS, ExpressJsDark, PHP, JavaScript, AWS} from "developer-icons";
 export default function TechStack() {
   // Simple icon placeholders using colored divs
   const Icon = ({ color, label }) => (
@@ -19,39 +20,45 @@ export default function TechStack() {
           <div className='border border-gray-300 rounded p-2'>
             <h3 className='text-base md:text-lg font-semibold text-gray-700 mb-1'>AI Agents / AI Infrastructure</h3>
             <div className='flex gap-2'>
-              <Icon color="#8B5CF6" label="Anthropic" />
-              <Icon color="#339933" label="NodeJs" />
+            
+             <NodeJs />
+             <Appwrite />
+              {/* <DeepSeek/> */}
+              <Tensorflow />
             </div>
           </div>
           
           <div className='border border-gray-300 rounded p-2'>
             <h3 className='text-base md:text-lg font-semibold text-gray-700 mb-1'>Frontend</h3>
             <div className='flex gap-2'>
-              <Icon color="#000000" label="NextJs" />
+             <NextJs />
+             <CSS/>
+             
             </div>
           </div>
           
           <div className='border border-gray-300 rounded p-2'>
             <h3 className='text-base md:text-lg font-semibold text-gray-700 mb-1'>Backend</h3>
             <div className='flex gap-2'>
-              <Icon color="#339933" label="NodeJs" />
-              <Icon color="#FD366E" label="Appwrite" />
+              <ExpressJsDark />
+              <NodeJs />    
+              <PHP/>
+              <JavaScript/>
             </div>
           </div>
           
           <div className='border border-gray-300 rounded p-2'>
-            <h3 className='text-base md:text-lg font-semibold text-gray-700 mb-1'>Security</h3>
+            <h3 className='text-base md:text-lg font-semibold text-gray-700 mb-1'>Database</h3>
             <div className='flex gap-2'>
-              <Icon color="#339933" label="NodeJs" />
-              <Icon color="#FD366E" label="Appwrite" />
+             
             </div>
           </div>
           
           <div className='border border-gray-300 rounded p-2'>
             <h3 className='text-base md:text-lg font-semibold text-gray-700 mb-1'>DevOps / Cloud</h3>
             <div className='flex gap-2'>
-              <Icon color="#FD366E" label="Appwrite" />
-              <Icon color="#339933" label="NodeJs" />
+             <AWS/>
+             
             </div>
           </div>
         </div>

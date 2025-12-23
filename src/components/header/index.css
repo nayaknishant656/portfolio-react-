@@ -1,6 +1,7 @@
 .ul-flex
 {
     display: flex;
+    justify-content: center;
 }
 
 .right-parent > nav > ul > li
@@ -10,4 +11,8 @@
 .ul-link
 {
     margin: 0px 5px;
+}
+.header-parent 
+{
+    height: 10px;
 }
