@@ -52,3 +52,22 @@
     padding: 10px 10px;
     margin: 10px 10px;
 }
+
+.techicon
+{
+    display: flex;
+    border: solid red 1px;
+}
+
+
+
+.flex-display-nishant
+{
+    display: flex;
+    gap: 20px;
+}
+.techicons__parent
+{
+    display: flex;
+   
+}
