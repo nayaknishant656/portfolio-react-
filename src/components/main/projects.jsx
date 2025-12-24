@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { ExpressJsDark, NextJs, NodeJs } from 'developer-icons';
 export default function Projects() {
   const style = document.createElement('style');
   style.textContent = `
@@ -66,6 +66,7 @@ export default function Projects() {
                 <p className="text-xs md:text-sm leading-relaxed text-gray-600">
                   An AI-powered chatbot that provides instant customer support and enhances user engagement on websites and applications.
                 </p>
+                
               </div>
 
               <div className="relative p-3 md:p-4 lg:p-5 rounded-lg border border-gray-200 bg-white">
@@ -100,30 +101,73 @@ export default function Projects() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 lg:gap-5">
             <div className="p-3 md:p-4 lg:p-5 rounded-lg border border-gray-200 bg-white">
               <h2 className="text-sm md:text-base lg:text-lg font-semibold mb-2">
-                Project 1
+                Doctor AI
               </h2>
               <p className="text-xs md:text-sm leading-relaxed text-gray-600">
-                Description of Project 1
+                Developed a dynamic prototype dashboard in Next.js, integrated the Google Gemini SDK/API, and implemented features such as PDF parsing and PDF analysis using LLM models. Designed API routing, used the Gemini LLM model for report analysis, integrated Gemini APIs, developed functionality for generating reports in PDF format with downloadable output
+              </p>
+
+              <div className='tech-stack-show'>
+                  <div className='tech-stack-show-children'>
+                    <span className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded mr-2">
+                      React.js
+                    </span>
+                    <span className="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded mr-2">
+                      Node.js
+                    </span>
+                    <span className="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded mr-2">
+                      Express.js
+                    </span>
+                  </div>
+                </div>
+            </div>
+
+            <div className="p-3 md:p-4 lg:p-5 rounded-lg border border-gray-200 bg-white">
+              <h2 className="text-sm md:text-base lg:text-lg font-semibold mb-2">
+                RESTFUL API with Express.js and MongoDB
+              </h2>
+              <p className="text-xs md:text-sm leading-relaxed text-gray-600">
+                Developed an HTTPS server with a REST API protocol. Implemented search, sort, pagination, delete, and PUT functionalities using Express.js. Designed a database schema in MongoDB and deployed the application on Vercel.
+              </p>
+
+               <div className='tech-stack-show'>
+                  <div className='tech-stack-show-children'>
+                    <div classname="techicon">
+                      <NextJs size={32} /><span className='text-sm'>Nextjs</span>
+                       <ExpressJsDark size={32} /><span className='text-sm'>ExpressJsDark</span>
+                       <NodeJs size={32} /><span className='text-sm'>NodeJs</span>
+                      </div>
+                    <span className="inline-block  text-green-800 text-xs px-2 py-1 rounded mr-2">
+                     <NodeJs size={32} /> Node.js
+                    </span>
+                    <span className="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded mr-2">
+                      Express.js
+                    </span>
+                  </div>
+                </div>
+            </div>
+
+            <div className="p-3 md:p-4 lg:p-5 rounded-lg border border-gray-200 bg-white">
+              <h2 className="text-sm md:text-base lg:text-lg font-semibold mb-2">
+                Cultural Donation Management System
+              </h2>
+              <p className="text-xs md:text-sm leading-relaxed text-gray-600">
+                developed using react , integrated own rest api , added customizable certificate generation feature,pagination , search , sort , in react js , react-redux , react-context
               </p>
             </div>
 
             <div className="p-3 md:p-4 lg:p-5 rounded-lg border border-gray-200 bg-white">
               <h2 className="text-sm md:text-base lg:text-lg font-semibold mb-2">
-                Project 2
+                Ecommerce---MultiFeatures
               </h2>
               <p className="text-xs md:text-sm leading-relaxed text-gray-600">
-                Description of Project 2
+                Developed an e-commerce platform in react.js, integrated third-party apis in react, developed functionality like sort and filter, implemented a fabric.js library for image editing, developed whole project in raw css, developed responsive frontend and mobile friendly.
               </p>
             </div>
 
-            <div className="p-3 md:p-4 lg:p-5 rounded-lg border border-gray-200 bg-white">
-              <h2 className="text-sm md:text-base lg:text-lg font-semibold mb-2">
-                Project 3
-              </h2>
-              <p className="text-xs md:text-sm leading-relaxed text-gray-600">
-                Description of Project 3
-              </p>
-            </div>
+
+
+
           </div>
         </div>
       </div>
