@@ -53,3 +53,10 @@
     transform: rotate(360deg);
   }
 }
+
+.main_grandparent_scale
+{
+  width: 870px;
+  border: solid 1px black;
+  margin: auto;
+}

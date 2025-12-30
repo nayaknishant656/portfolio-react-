@@ -1,34 +1,29 @@
 import React from "react";
-import "./timeline.css";
 import { FaArrowUp } from "react-icons/fa";
 
-export default function TimelineCard() {
+export default function TimelineCard({ data }) {
+  const { Heading, Summary, Description } = data[0];
+  
   return (
-    <div className="grandparent_timelinecard">
-      <div className="Parent_timelinecard">
+    <div className="max-w-2xl mx-auto py-8 px-6">
+      <div className="py-1 mb-3">
         
-        <div className="content_timelinecard">
+        <div>
           
           {/* HEADER */}
-          <div className="content_master_head">
-            <div className="content_left">
-              <h3>GO Language</h3>
-            </div>
-
-            <div className="content_right">
-              <FaArrowUp />
-            </div>
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-sm font-medium text-gray-800">{Heading}</h3>
+            <FaArrowUp className="text-xs text-gray-500" />
           </div>
 
           {/* DETAILS DROPDOWN */}
-          <details>
-            <summary>Epcot Center</summary>
+          <details className="group">
+            <summary className="text-xs text-gray-600 cursor-pointer hover:text-gray-800 list-none mb-1">
+              {Summary}
+            </summary>
 
-            <div className="content_center_paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto 
-              labore distinctio odio deleniti soluta inventore nemo itaque recusandae.
-              Quaerat minima corporis fuga reprehenderit repellat minus deleniti 
-              ratione quas debitis saepe eos sed nesciunt ipsum.
+            <div className="text-xs text-gray-500 mt-2 pl-2">
+              {Description}
             </div>
 
           </details>

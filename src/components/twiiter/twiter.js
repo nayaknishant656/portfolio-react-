@@ -24,7 +24,7 @@ export default function twiiter() {
         <div className='main-parent-twiiter'>
           <h2>05/05/2024</h2>
           <span className='head__span'></span>
-          <h2 className='h__twiiter'>Europia</h2>
+          <h2 className='h__twiiter'>Donation Management</h2>
           <div className='main-sunparent-parent'>
             <h3>eu-pho-ria</h3>
             <p>Synonyms of euphoria</p>
