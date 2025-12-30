@@ -79,7 +79,6 @@ const data = {
 export default function source() {
   return (
     <div>
-      <h1>ThiS IS THE SOURCE CODE</h1>
       <Sourcecard data={data}/>
     </div>
   )
