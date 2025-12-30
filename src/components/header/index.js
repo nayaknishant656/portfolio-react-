@@ -13,7 +13,7 @@ export default function index() {
                 <nav>
                     <ul className='ul-flex'>
                     <Link to="/" className="ul-link">Home</Link>
-                    <Link to="twitter" className="ul-link">boredom</Link>
+                    <Link to="twitter" className="ul-link">Product</Link>
                     <Link to="timeline" className="ul-link">Hot Code</Link>
                     <Link to="Blogs" className="ul-link">Blogs</Link>
                     <Link to="Gallery" className="ul-link">Gallery</Link>

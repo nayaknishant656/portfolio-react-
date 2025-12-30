@@ -152,7 +152,7 @@ export default function Projects() {
 
             <div className="p-3 md:p-4 lg:p-5 rounded-lg border border-gray-200 bg-white">
               <h2 className="text-sm md:text-base lg:text-lg font-semibold mb-2">
-                Cultural Donation Management System
+                Temple Donation Management System
               </h2>
               <p className="text-xs md:text-sm leading-relaxed text-gray-600">
                 developed using react , integrated own rest api , added customizable certificate generation feature,pagination , search , sort , in react js , react-redux , react-context

@@ -31,7 +31,7 @@ export default function main() {
               />
               <div className='resume__download_parent'>
                 <div className='resume__download_child'>
-                  <a href='https://docs.google.com/document/d/1-0k2bY4pWvV2p3n1Yk6G6U5r1F2H3I4J5K6L7M8N9O0/edit?usp=sharing' download>
+                  <a href='https://drive.google.com/file/d/1TjDGvPpc-iQsqknjj1083rBoY6HVgrxf/view?usp=sharing' download>
                     <button className='resume__download_button'>
                     <IoDocuments />
                     </button>
