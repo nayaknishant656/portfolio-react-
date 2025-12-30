@@ -12,13 +12,13 @@ export default function index() {
             <div className='right-parent'>
                 <nav>
                     <ul className='ul-flex'>
-                    <Link to="/" className="ul-link">Home</Link>
-                    <Link to="twitter" className="ul-link">Product</Link>
-                    <Link to="timeline" className="ul-link">Hot Code</Link>
-                    <Link to="Blogs" className="ul-link">Blogs</Link>
-                    <Link to="Gallery" className="ul-link">Gallery</Link>
-                    <Link to="videos" className="ul-link">Videos</Link>
-                    <Link to="Youtubeblog" className="ul-link">YoutubeBlog</Link>
+                    <Link to="/" className="ul-link"><div>Home</div></Link>
+                    <Link to="twitter" className="ul-link"><div>Product</div></Link>
+                    <Link to="timeline" className="ul-link"><div>Hot Code</div></Link>
+                    <Link to="Blogs" className="ul-link"><div>Blogs</div></Link>
+                    <Link to="Gallery" className="ul-link"><div>Gallery</div></Link>
+                    <Link to="videos" className="ul-link"><div>Videos</div></Link>
+                    <Link to="Youtubeblog" className="ul-link"><div>YoutubeBlog</div></Link>
                     </ul>
                 </nav>
             </div>
