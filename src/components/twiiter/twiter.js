@@ -39,18 +39,69 @@ export default function twiiter() {
 
         <div className='main-parent-twiiter'>
           <h2>05/05/2024</h2><span className='head__span'></span>
-          <h2 className='h__twiiter'>nishantttttttt shit post</h2>
+          <h2 className='h__twiiter'>Golang Grapghql Oauth2.0 ( Backend Project)</h2>
           <div className='main-sunparent-parent'>
-            <h3>devuja</h3>
-            <p>dejavu-feeling-we have felt earlier</p>
+            <h3>UPcoming in days </h3>
+            <p>Used GOlang, grapgh , Oauth 2.0 , JWT , security</p>
           </div>
           <div className='head__sub-parent'>
             <span className='head__sub-parent__span'></span>
             <h2>:: a feeling of well-being or elation</h2>
+
+
+            
+          <div className='Thread_granparent'> 
+ <div className='thread_parent'>  
+<div className='thread_left_main'> </div>
+<div className='content_thread_based'>
+  <div className='content_thread_based'>
+    <p> lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem .lorem .lorem .lorem .lorem .lorem .lorem .lore.lorm.lorem .lorem 
+    </p>
+  </div>
+</div>
+
+   </div>
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div className='head__sub_p'><p><span className='timeline__t'></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more"><p><br></br>They had almost a week to recover from the euphoria of Tuesdays series-winning victory  -Clifton Brown</p></span></p>
               <button onClick={myFunction} id="myBtn">Read more</button></div>
           </div>
         </div><br></br>
+
+
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
       </div>
     </>
   )

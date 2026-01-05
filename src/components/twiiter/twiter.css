@@ -71,3 +71,37 @@
 #more {
     display: none;
 }
+
+
+.Thread_granparent
+{
+height: auto;
+padding: 10px 30px;
+margin: 30px;
+}
+
+.thread_parent
+{
+    height: auto;
+    display: flex;
+    gap: 10px;
+}
+.thread_left_main
+{
+       border: solid #00000075 1px;
+    height: 88px;
+    border-radius-left: 20px;
+    top: 14px;
+    /* border-left: none; */
+    left: 43px;
+    border-width: 11px;
+    position: absolute;
+    /* border-left: none; */
+    border-width: 1.9px;
+    border-top: none;
+    border-right: none;
+    /* border-radius: 19px; */
+    border-radius: 0px 0px 0px 11px;
+    /* border-left-style: solid; */
+    width: 26px;
+}
