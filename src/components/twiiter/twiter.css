@@ -105,3 +105,28 @@ margin: 30px;
     /* border-left-style: solid; */
     width: 26px;
 }
+.thread_parent_components
+{
+   border: solid red 1px;
+    border-width: 2px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+
+}
+
+.thread_child_content
+{
+   border: solid red 1px;
+    width: 15px;
+    height: 34px;
+    /* border-width: 2px; */
+    /* border-end-start-radius: 17px; */
+    position: relative;
+    /* border-end-end-radius: 7px; */
+    border-right: none;
+    border-top: none;
+    top: 23px;
+    left: 0px;
+    border-radius: 0px 0px 0px 10px;
+}
