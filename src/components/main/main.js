@@ -11,7 +11,7 @@ export default function main() {
   return (
     <>
 
-      <div className='parent-name-heading'>
+       <div className='parent-name-heading'>
         <div className='second-parent-name'>
           <div className='main-heading'>
             <div className='main-heading-part'>

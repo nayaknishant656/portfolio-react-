@@ -65,7 +65,7 @@ export default function TechStack() {
         
         <div 
           className={`overflow-hidden transition-all duration-1000 ease-in-out ${
-            isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'
+            isExpanded ? 'max-h-[2000px] opacity-100 min-h-[400px]' : 'max-h-[150px] '
           }`}
         >
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
