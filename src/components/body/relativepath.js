@@ -24,7 +24,7 @@ export default function relativepath({ item }) {
         <div className='bullet-points'>
           <ul className='bullet-points-ul'>
             {keypoints?.map((item) => (
-              <><div></div><li>{item.text}</li>
+              <><li>{item.text}</li>
               </>
             ))}
           </ul>

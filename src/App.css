@@ -60,3 +60,19 @@
   border: solid 1px black;
   margin: auto;
 }
+
+.thread_child_content
+{
+   border: solid red 1px;
+    width: 15px;
+    height: 34px;
+    /* border-width: 2px; */
+    /* border-end-start-radius: 17px; */
+    position: relative;
+    /* border-end-end-radius: 7px; */
+    border-right: none;
+    border-top: none;
+    top: 23px;
+    left: 0px;
+    border-radius: 0px 0px 0px 10px;
+}
