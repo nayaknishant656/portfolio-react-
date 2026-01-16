@@ -13,7 +13,7 @@ function Header({}: Props) {
               href="/" 
               className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-200 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-blue-600 after:transition-all after:duration-300 hover:after:w-full"
             >
-              Homee
+              Homeeee
             </Link>
           </li>
           <li>
