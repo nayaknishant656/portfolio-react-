@@ -1,20 +1,41 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function ResearchPaper() {
+  const [expandedId, setExpandedId] = useState(null);
+
   const researchPapers = [
     {
       id: 1,
-      title: 'A Comprehensive Study on Machine Learning Algorithms for Predictive Analytics',
-      authors: 'Nishant Kumar Nayak, John Doe, Jane Smith',
-      githubUrl: 'https://github.com'
+      title: 'AI Agentic Agricultural Ecosystem for Future of Farming',
+      authors: 'Nishant Kumar Nayak',
+      description: 'A cutting-edge agricultural system leveraging AI agents to ',
+      githubUrl: 'https://github.com/nayaknishant656/AI-Agentic-Advanced-Agriculture-Ecosystem'
     },
     {
       id: 2,
-      title: 'Optimizing Neural Networks for Image Recognition Tasks',
-      authors: 'Nishant Kumar Nayak, Alice Johnson, Bob Brown',
+      title: 'Building Management System Using Deep Learning and IoT',
+      authors: 'Nishant Kumar Nayak',
+      description: 'An intelligent building management solution ',
+      githubUrl: 'https://github.com'
+    },
+    {
+      id: 3,
+      title: 'Enterprise Resource Planning System with AI Integration and headcount reduce',
+      authors: 'Nishant Kumar Nayak',
+      description: 'A comprehensive ERP system enhanced ',
       githubUrl: 'https://github.com'
     }
   ];
+
+  const toggleExpand = (id) => {
+    setExpandedId(expandedId === id ? null : id);
+  };
+
+  const truncateText = (text, wordLimit) => {
+    const words = text.split(' ');
+    if (words.length <= wordLimit) return text;
+    return words.slice(0, wordLimit).join(' ') + '...';
+  };
 
   return (
    <div className='px-2'>
@@ -35,6 +56,15 @@ export default function ResearchPaper() {
                     <div>
                         <h3 className='text-base font-medium text-gray-900 mb-1 leading-snug'>{paper.title}</h3>
                         <p className='text-xs text-gray-500'>{paper.authors}</p>
+                        <p className='text-sm text-gray-600'>
+                          {expandedId === paper.id ? paper.description : truncateText(paper.description, 15)}
+                          <button 
+                            onClick={() => toggleExpand(paper.id)}
+                            className='text-blue-600 hover:text-blue-800 ml-1'
+                          >
+                            {expandedId === paper.id ? 'Read less' : 'Read more'}
+                          </button>
+                        </p>
                     </div>
                   </div>
                 ))}

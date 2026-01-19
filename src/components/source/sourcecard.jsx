@@ -5,7 +5,7 @@ export default function Sourcecard({ data }) {
     
     return (
         <div className='max-w-2xl mx-auto py-8 px-6'>
-            
+            <h1 className='text-xl'>My Thoughts on Technology, Why It Was Built, and Its Business Impact</h1>
             {/* Scale Section */}
             <div>
                 <h2 className='text-xl font-semibold mb-4 text-gray-900'>Scale</h2>

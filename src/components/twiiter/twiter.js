@@ -127,6 +127,7 @@ const data = [
   return (
     <>
 <div className='grand-parent-header'>
+  <h1 className='text-xl '>Products That can Impact People</h1>
   <div className='thread_parent_components'>
       {data.map((item) => (
       <> <div className='thread_child_content'></div> <TwitterComponent 
