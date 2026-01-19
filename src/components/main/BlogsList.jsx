@@ -49,7 +49,7 @@ export default function BlogsList() {
   return (
     <section className="my-12 md:my-16 lg:my-20">
       <div className="mb-6 md:mb-8">
-        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black">
           Latest Blog Posts
         </h2>
         <p className="text-sm md:text-base text-gray-600 mt-2">
@@ -61,22 +61,23 @@ export default function BlogsList() {
         {blogs.map((blog) => (
           <article 
             key={blog.id}
-            className="bg-white rounded-lg border border-gray-200 p-2 hover:shadow-lg transition-shadow duration-300 cursor-pointer flex flex-col h-full max-w-[280px]"
+            className="rounded-lg p-2 hover:shadow-lg transition-shadow duration-300 cursor-pointer flex flex-col h-full max-w-[280px]"
+            style={{ background: 'white', border: '2px solid black' }}
           >
-            <time className="text-xs text-gray-500 font-medium">
+            <time className="text-xs font-medium" style={{ color: '#6b7280' }}>
               {blog.date}
             </time>
             
-            <h3 className="text-sm font-semibold text-gray-900 mt-1 mb-1 line-clamp-2 hover:text-blue-600 transition-colors">
+            <h3 className="text-sm font-semibold mt-1 mb-1 line-clamp-2 hover:text-blue-600 transition-colors" style={{ color: 'black' }}>
               {blog.title}
             </h3>
             
-            <p className="text-xs text-gray-600 leading-relaxed line-clamp-3 mb-2 flex-grow">
-              <span className="font-semibold text-gray-700">TL;DR: </span>
+            <p className="text-xs leading-relaxed line-clamp-3 mb-2 flex-grow" style={{ color: '#374151' }}>
+              <span className="font-semibold" style={{ color: '#1f2937' }}>TL;DR: </span>
               {blog.tldr}
             </p>
             
-            <div className="flex items-center mt-auto pt-2 border-t border-gray-100">
+            <div className="flex items-center mt-auto pt-2" style={{ borderTop: '1px solid #e5e7eb' }}>
               <div className="flex items-center text-blue-600 text-xs font-medium hover:text-blue-700 transition-colors">
                 Read more
                 <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

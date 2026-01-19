@@ -7,6 +7,11 @@
     font-family: "Google Sans", sans-serif;
 }
 
+body
+{
+  color: rgb(0, 0, 0);
+}
+
 .google-sans {
   font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
@@ -56,7 +61,7 @@
 
 .main_grandparent_scale
 {
-  width: 870px;
+  /* width: 870px; */
 border:solid 1px #0000000d;
   margin: auto;
 }

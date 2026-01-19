@@ -70,7 +70,7 @@ export default function Projects() {
       .tech-icon-item h5 {
         font-size: 10px;
         margin: 0;
-        color: #374151;
+        color: #000000ff;
         font-weight: 500;
       }
     `;
@@ -154,22 +154,23 @@ export default function Projects() {
   return (
     <section style={{ padding: '32px 16px', maxWidth: '1200px', margin: '0 auto' }}>
       {/* Upcoming Projects */}
-      <div className="bg-white rounded-lg border border-gray-200 p-4 md:p-6 mb-8">
-        <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-6">
+      <div className="rounded-lg border border-gray-200 p-4 md:p-6 mb-8">
+        <h3 className="text-xl md:text-2xl font-bold text-black mb-6">
           Upcoming Projects
         </h3>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="flex flex-col gap-2">
           {upcomingProjects.map((project, index) => (
             <div 
               key={index}
-              className="relative p-5 rounded-lg border border-gray-200 bg-white hover:shadow-md transition-shadow"
+              className="relative p-3 rounded-lg hover:shadow-md transition-shadow"
+              style={{ background: 'white', border: '2px solid black' }}
             >
               <div className="status-indicator"></div>
-              <h2 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px' }}>
+              <h2 style={{ fontSize: '14px', fontWeight: '600', marginBottom: '4px', color: 'black' }}>
                 {project.title}
               </h2>
-              <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#6b7280' }}>
+              <p style={{ fontSize: '12px', lineHeight: '1.4', color: '#374151' }}>
                 {project.description}
               </p>
             </div>
@@ -178,8 +179,8 @@ export default function Projects() {
       </div>
 
       {/* Completed Projects */}
-      <div className="bg-white rounded-lg border border-gray-200 p-4 md:p-6">
-        <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-6">
+      <div className="rounded-lg border border-gray-100 p-4 md:p-6">
+        <h3 className="text-xl md:text-2xl font-bold text-black mb-6">
           Completed Projects
         </h3>
         
@@ -188,42 +189,42 @@ export default function Projects() {
             isExpanded ? 'max-h-[3000px] opacity-100' : 'max-h-[200px]'
           }`}
         >
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div style={{ padding: '18px', borderRadius: '8px', border: '1px solid #e5e7eb', background: 'white' }}>
-              <h2 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px' }}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
+            <div style={{ padding: '18px', borderRadius: '1px', border: '1px solid black', background: 'white' }}>
+              <h2 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
                 Doctor AI
               </h2>
-              <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#6b7280', marginBottom: '12px' }}>
+              <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#374151', marginBottom: '12px' }}>
                 Developed a dynamic prototype dashboard in Next.js, integrated the Google Gemini SDK/API, and implemented features such as PDF parsing and PDF analysis using LLM models. Designed API routing, used the Gemini LLM model for report analysis, integrated Gemini APIs, developed functionality for generating reports in PDF format with downloadable output.
               </p>
               {renderTechStack(techStacks.doctorAI)}
             </div>
 
-            <div style={{ padding: '18px', borderRadius: '8px', border: '1px solid #e5e7eb', background: 'white' }}>
-              <h2 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px' }}>
+            <div style={{ padding: '18px', borderRadius: '1px', border: '1px solid black', background: 'white' }}>
+              <h2 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
                 RESTFUL API with Express.js and MongoDB
               </h2>
-              <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#6b7280', marginBottom: '12px' }}>
+              <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#374151', marginBottom: '12px' }}>
                 Developed an HTTPS server with a REST API protocol. Implemented search, sort, pagination, delete, and PUT functionalities using Express.js. Designed a database schema in MongoDB and deployed the application on Vercel.
               </p>
               {renderTechStack(techStacks.restAPI)}
             </div>
 
-            <div style={{ padding: '18px', borderRadius: '8px', border: '1px solid #e5e7eb', background: 'white' }}>
-              <h2 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px' }}>
+            <div style={{ padding: '18px', borderRadius: '1px', border: '1px solid black', background: 'white' }}>
+              <h2 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
                 Temple Donation Management System
               </h2>
-              <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#6b7280', marginBottom: '12px' }}>
+              <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#374151', marginBottom: '12px' }}>
                 Developed using React, integrated own REST API, added customizable certificate generation feature, pagination, search, sort, in React.js, React-Redux, React-Context.
               </p>
               {renderTechStack(techStacks.templeDonation)}
             </div>
 
-            <div style={{ padding: '18px', borderRadius: '8px', border: '1px solid #e5e7eb', background: 'white' }}>
-              <h2 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px' }}>
+            <div style={{ padding: '18px', borderRadius: '1px', border: '1px solid black', background: 'white' }}>
+              <h2 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
                 Ecommerce---MultiFeatures
               </h2>
-              <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#6b7280', marginBottom: '12px' }}>
+              <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#374151', marginBottom: '12px' }}>
                 Developed an e-commerce platform in React.js, integrated third-party APIs in React, developed functionality like sort and filter, implemented a Fabric.js library for image editing, developed whole project in raw CSS, developed responsive frontend and mobile friendly.
               </p>
               {renderTechStack(techStacks.ecommerce)}

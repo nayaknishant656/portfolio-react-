@@ -7,6 +7,7 @@ import FooterNavigation from "./Footernavigation"
 import Techstack from './techstack';
 import BlogsList from './BlogsList';
 import Projects from './projects';
+import ResearchPaper from './ResearchPaper';
 export default function main() {
   return (
     <>
@@ -43,7 +44,7 @@ export default function main() {
               </div>
 
 
-
+           <ResearchPaper/>
            <Techstack/>
               <Projects/>
                <BlogsList/>

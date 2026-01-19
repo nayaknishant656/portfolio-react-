@@ -6,6 +6,7 @@ export default function TechStack() {
   const categories = [
     {
       title: "AI/ML & Infrastructure",
+      proficiency: 6,
       icons: [
         { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg", name: "TensorFlow" },
         { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", name: "Python" },
@@ -14,6 +15,7 @@ export default function TechStack() {
     },
     {
       title: "Frontend",
+      proficiency: 9,
       icons: [
         { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", name: "React" },
         { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg", name: "Next.js" },
@@ -26,6 +28,7 @@ export default function TechStack() {
     },
     {
       title: "Backend",
+      proficiency: 8,
       icons: [
         { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg", name: "Node.js" },
         { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg", name: "Express" },
@@ -35,6 +38,7 @@ export default function TechStack() {
     },
     {
       title: "Database",
+      proficiency: 8,
       icons: [
         { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg", name: "MongoDB" },
         { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", name: "MySQL" },
@@ -44,6 +48,7 @@ export default function TechStack() {
     },
     {
       title: "DevOps & Cloud",
+      proficiency: 7,
       icons: [
         { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg", name: "AWS" },
         { url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg", name: "Docker" },
@@ -60,37 +65,60 @@ export default function TechStack() {
 
   return (
     <div className="my-8">
-      <div className="bg-white rounded-lg border border-gray-200 p-4 md:p-6">
-        <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-6">Tech Stack</h2>
+      <div className="rounded-lg border border-gray-200 p-4 md:p-6">
+        <h2 className="text-xl md:text-2xl font-bold text-white-200 mb-6">Tech Stack</h2>
         
         <div 
           className={`overflow-hidden transition-all duration-1000 ease-in-out ${
-            isExpanded ? 'max-h-[2000px] opacity-100 min-h-[400px]' : 'max-h-[150px] '
+            isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-[150px]'
           }`}
         >
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+          <div className="flex flex-col gap-3">
             {categories.map((category, idx) => (
               <div 
                 key={idx}
-                className="border border-gray-300 rounded-lg p-4 hover:shadow-md transition-shadow"
+                className="rounded-lg p-3 hover:shadow-md transition-shadow"
+                style={{ background: 'white', border: '2px solid black' }}
               >
-                <h3 className="text-sm md:text-base font-semibold text-gray-700 mb-3 min-h-[40px] flex items-center">
-                  {category.title}
-                </h3>
-                <div className="flex flex-wrap gap-4">
+                <div className="flex items-center justify-between mb-2">
+                  <h3 className="text-sm md:text-base font-semibold" style={{ color: 'black' }}>
+                    {category.title}
+                  </h3>
+                  <div className="flex items-center gap-2">
+                    {category.title === "AI/ML & Infrastructure" && (
+                      <span className="px-2 py-1 bg-blue-500/20 text-blue-600 text-xs rounded-full border border-blue-500/30">
+                        Learning
+                      </span>
+                    )}
+                    <div className="flex items-center gap-1">
+                      <span className="text-xs" style={{ color: '#6b7280' }}>Proficiency:</span>
+                      <span className="text-sm font-bold" style={{ color: 'black' }}>{category.proficiency}/10</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Proficiency bar */}
+                <div className="w-full h-1.5 bg-gray-200 rounded-full mb-3 overflow-hidden">
+                  <div 
+                    className="h-full bg-gradient-to-r from-blue-500 to-purple-500 rounded-full transition-all duration-500"
+                    style={{ width: `${category.proficiency * 10}%` }}
+                  ></div>
+                </div>
+                
+                <div className="flex flex-wrap gap-3">
                   {category.icons.map((icon, iconIdx) => (
                     <div 
                       key={iconIdx}
-                      className="flex flex-col items-center gap-2 transform hover:scale-105 transition-transform"
+                      className="flex flex-col items-center gap-1 transform hover:scale-105 transition-transform"
                       title={icon.name}
                     >
                       <img 
                         src={icon.url} 
                         alt={icon.name}
-                        className="w-12 h-12 object-contain"
+                        className="w-10 h-10 object-contain"
                         loading="lazy"
                       />
-                      <span className="text-sm text-gray-700 text-center font-medium">
+                      <span className="text-xs text-center font-medium" style={{ color: '#000000ff' }}>
                         {icon.name}
                       </span>
                     </div>
