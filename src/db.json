@@ -1,10 +1,31 @@
 [
   {
     "id": 1,
+    "title": "LLM Models Training and RAG System with memory and Docker",
+    "upcoming": true,
+    "date": "Jan/2026",
+    "des": "A high-performance RAG (Retrieval-Augmented Generation) architecture designed for domain-specific knowledge retrieval. It features a sophisticated memory management system to maintain conversational context and is fully containerized for scalable deployment.",
+    "img": "https://doctor-ai-one.vercel.app/",
+    "link": "",
+    "tech": "Next JS, Python, LangChain, Pinecone, Docker, Node"
+  },
+  {
+    "id": 2,
+    "title": "Agentic AI driven Sales Platform for E-commerce",
+    "upcoming": true,
+    "date": "November/2025",
+    "des": "An intelligent e-commerce ecosystem that utilizes autonomous AI agents to drive sales. The platform automates product recommendations, handles complex customer queries, and executes sales-closing strategies without human intervention.",
+    "img": "https://doctor-ai-one.vercel.app/",
+    "link": "",
+    "tech": "Next JS, OpenAI SDK, Gemini 2.0, TypeScript, Node"
+  },
+  {
+    "id": 3,
     "title": "Doctor_AI",
+    "upcoming": false,
     "date": "March/2025",
     "des": "Doctor_AI is the online Blood report Analysis webapp , where it analysis your blood report pdf and gives you brief information about your blood health ",
-    "img": "https://doctor-ai-one.vercel.app/",
+    "img": "https://main.d3f97a5gw6007u.amplifyapp.com/",
     "link": "",
     "tech": "Next JS, JavaScript, CSS, typescript, Node , ",
     "keypoints": [
@@ -21,9 +42,11 @@
         "text": "Currently developing the analysis dashboard and additional features like download report, whatsapp shareable link , and best doctor recommendation system to recommend you best doctor in your region for your health diagnostic based on your blood analysis health report "
       }
     ]
-  },{
-    "id": 2,
+  },
+  {
+    "id": 4,
     "title": "Paardarshi",
+    "upcoming": false,
     "date": "March/2024",
     "des": "I built a web portal called Paardarshi for my village. It is a transparent medium that helps donors verify and check their donated money authentically. A fun fact about this project is that I built it entirely on YouTube live.",
     "img": "https://fron-pardar.vercel.app/",
@@ -45,7 +68,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "React E-commerce Webapp",
     "date": "May/2023",
     "des": "I built a web app in March 2023 when there was a great rush for React and JavaScript. Fortunately, due to my JavaScript skills, I was able to complete this web app in 5 days before the peak of the React and JavaScript rush.",
@@ -67,7 +90,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "React-ChatRoom-Frontend",
     "date": "May/2023",
     "des": "This project was assigned to me during an interview in July 2023 for a startup. I got shortlisted, but due to academic commitments, I didn't accept the offer.",
@@ -80,7 +103,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "Kissan",
     "date": "May/2023",
     "des": "It was a simple startup I built back in the day. For scaling, I used various web scraping techniques and built a WhatsApp bulk sender using WBM. I received many responses, but unfortunately, I had to shut it down.",
@@ -99,7 +122,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "Ppassport",
     "date": "August/2021",
     "des": "I built a business that helps people get their passport photos using their ID. It is currently active.",
@@ -121,7 +144,7 @@
     ]
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "Certificate Generator",
     "date": "August/2022",
     "des": "I built a platform for my village temple where the main aim was to market and collect donations by generating certificates. The idea was to encourage people to put these certificates as their WhatsApp status to create social 'FOMO' in the community.",
@@ -143,7 +166,7 @@
     ]
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "Nawnit Studio Prints",
     "date": "april/2021",
     "des": "This project built my confidence. When I was 16, during the first wave of COVID-19 in the second week of the 21-day quarantine, I started this project. From then until August 2020, I worked on building multiple registration forms, integrating MySQL with PHP, and setting up payment gateways.",
@@ -165,7 +188,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 11,
     "title": "OFFLINE",
     "des": "A boredom project I worked on for fun.",
     "img": "https://nawnitstudio.000webhostapp.com/oac/index.html",
