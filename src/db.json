@@ -5,7 +5,7 @@
     "upcoming": true,
     "date": "Jan/2026",
     "des": "A high-performance RAG (Retrieval-Augmented Generation) architecture designed for domain-specific knowledge retrieval. It features a sophisticated memory management system to maintain conversational context and is fully containerized for scalable deployment.",
-    "img": "https://doctor-ai-one.vercel.app/",
+    "img": "",
     "link": "",
     "tech": "Next JS, Python, LangChain, Pinecone, Docker, Node"
   },
@@ -15,7 +15,7 @@
     "upcoming": true,
     "date": "November/2025",
     "des": "An intelligent e-commerce ecosystem that utilizes autonomous AI agents to drive sales. The platform automates product recommendations, handles complex customer queries, and executes sales-closing strategies without human intervention.",
-    "img": "https://doctor-ai-one.vercel.app/",
+    "img": "",
     "link": "",
     "tech": "Next JS, OpenAI SDK, Gemini 2.0, TypeScript, Node"
   },
