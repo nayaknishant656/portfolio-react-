@@ -48,7 +48,7 @@
     "title": "Paardarshi",
     "upcoming": false,
     "date": "March/2024",
-    "des": "I built a web portal called Paardarshi for my village. It is a transparent medium that helps donors verify and check their donated money authentically. A fun fact about this project is that I built it entirely on YouTube live.",
+    "des": "I built a web portal called Paardarshi for my Society. It is a transparent medium that helps donors verify and check their donated money authentically. A fun fact about this project is that I built it entirely on YouTube live.",
     "img": "https://paardarshi-frontend.vercel.app/",
     "link": "https://backend-paardarshi.vercel.app/shoes",
     "tech": "React, JavaScript, CSS, React-Router, Node , Express, Mongodb",
