@@ -64,23 +64,22 @@ export default function TechStack() {
   };
 
   return (
-    <div className="my-8">
-      <div className="rounded-lg border border-gray-200 p-4 md:p-6">
-        <h2 className="text-xl md:text-2xl font-bold text-white-200 mb-6">Tech Stack</h2>
-        
-        <div 
-          className={`overflow-hidden transition-all duration-1000 ease-in-out ${
-            isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-[150px]'
-          }`}
+    <div className="my-2">
+      <div className="rounded-lg p-1">
+        <h2 className="text-xl md:text-2xl font-bold text-white-200 mb-2">Tech Stack</h2>
+
+        <div
+          className={`overflow-hidden transition-all duration-1000 ease-in-out ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-[150px]'
+            }`}
         >
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-1">
             {categories.map((category, idx) => (
-              <div 
+              <div
                 key={idx}
-                className="rounded-lg p-3 hover:shadow-md transition-shadow"
-                style={{ background: 'white', border: '2px solid black' }}
+                className="rounded-lg p-1 hover:shadow-md transition-shadow"
+                style={{ background: 'white' }}
               >
-                <div className="flex items-center justify-between mb-2">
+                <div className="flex items-center justify-between mb-1">
                   <h3 className="text-sm md:text-base font-semibold" style={{ color: 'black' }}>
                     {category.title}
                   </h3>
@@ -96,24 +95,24 @@ export default function TechStack() {
                     </div>
                   </div>
                 </div>
-                
+
                 {/* Proficiency bar */}
-                <div className="w-full h-1.5 bg-gray-200 rounded-full mb-3 overflow-hidden">
-                  <div 
+                <div className="w-full h-1.5 bg-gray-200 rounded-full mb-1 overflow-hidden">
+                  <div
                     className="h-full bg-gradient-to-r from-blue-500 to-purple-500 rounded-full transition-all duration-500"
                     style={{ width: `${category.proficiency * 10}%` }}
                   ></div>
                 </div>
-                
-                <div className="flex flex-wrap gap-3">
+
+                <div className="flex flex-wrap gap-2">
                   {category.icons.map((icon, iconIdx) => (
-                    <div 
+                    <div
                       key={iconIdx}
                       className="flex flex-col items-center gap-1 transform hover:scale-105 transition-transform"
                       title={icon.name}
                     >
-                      <img 
-                        src={icon.url} 
+                      <img
+                        src={icon.url}
                         alt={icon.name}
                         className="w-10 h-10 object-contain"
                         loading="lazy"
@@ -130,16 +129,16 @@ export default function TechStack() {
         </div>
 
         {/* Arrow Button */}
-        <div className="flex justify-center mt-3">
+        <div className="flex justify-center mt-1">
           <button
             onClick={toggleExpand}
             className="flex items-center gap-1 px-3 py-1.5 bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium rounded-md transition-colors shadow-sm hover:shadow-md"
           >
             <span>{isExpanded ? 'Show Less' : 'Show More'}</span>
-            <svg 
+            <svg
               className={`w-4 h-4 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
-              fill="none" 
-              stroke="currentColor" 
+              fill="none"
+              stroke="currentColor"
               viewBox="0 0 24 24"
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />

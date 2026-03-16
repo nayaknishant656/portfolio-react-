@@ -47,8 +47,8 @@ export default function BlogsList() {
   ];
 
   return (
-    <section className="my-12 md:my-16 lg:my-20">
-      <div className="mb-6 md:mb-8">
+    <section className="my-4 md:my-6 lg:my-8">
+      <div className="mb-2">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black">
           Latest Blog Posts
         </h2>
@@ -57,26 +57,26 @@ export default function BlogsList() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 md:gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">
         {blogs.map((blog) => (
-          <article 
+          <article
             key={blog.id}
-            className="rounded-lg p-2 hover:shadow-lg transition-shadow duration-300 cursor-pointer flex flex-col h-full max-w-[280px]"
-            style={{ background: 'white', border: '2px solid black' }}
+            className="rounded-lg p-1 hover:shadow-lg transition-shadow duration-300 cursor-pointer flex flex-col h-full max-w-[280px]"
+            style={{ background: 'white' }}
           >
             <time className="text-xs font-medium" style={{ color: '#6b7280' }}>
               {blog.date}
             </time>
-            
+
             <h3 className="text-sm font-semibold mt-1 mb-1 line-clamp-2 hover:text-blue-600 transition-colors" style={{ color: 'black' }}>
               {blog.title}
             </h3>
-            
+
             <p className="text-xs leading-relaxed line-clamp-3 mb-2 flex-grow" style={{ color: '#374151' }}>
               <span className="font-semibold" style={{ color: '#1f2937' }}>TL;DR: </span>
               {blog.tldr}
             </p>
-            
+
             <div className="flex items-center mt-auto pt-2" style={{ borderTop: '1px solid #e5e7eb' }}>
               <div className="flex items-center text-blue-600 text-xs font-medium hover:text-blue-700 transition-colors">
                 Read more

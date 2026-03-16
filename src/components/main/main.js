@@ -1,7 +1,7 @@
 import React from 'react'
 import "./main.css";
 import Typewriter from 'typewriter-effect';
-import { Appwrite, Anthropic, NextJs, NodeJs , Download } from "developer-icons";
+import { Appwrite, Anthropic, NextJs, NodeJs, Download } from "developer-icons";
 import { IoDocuments } from "react-icons/io5";
 import FooterNavigation from "./Footernavigation"
 import Techstack from './techstack';
@@ -12,11 +12,11 @@ export default function main() {
   return (
     <>
 
-       <div className='parent-name-heading'>
+      <div className='parent-name-heading'>
         <div className='second-parent-name'>
           <div className='main-heading'>
             <div className='main-heading-part'>
-          <h1>Hey , Nishant this side,</h1>
+              <h1>Hey , Nishant this side,</h1>
               <Typewriter className="main-heainding-part-typewriter"
                 onInit={(typewriter) => {
                   typewriter
@@ -34,21 +34,21 @@ export default function main() {
                 <div className='resume__download_child'>
                   <a href='https://drive.google.com/file/d/1TjDGvPpc-iQsqknjj1083rBoY6HVgrxf/view?usp=sharing' download>
                     <button className='resume__download_button'>
-                    <IoDocuments />
+                      <IoDocuments />
                     </button>
                   </a>
                 </div>
               </div>
               <div className='para-head-parent'>
-                <p> <br></br>I am a software developer and a product designer. I believe in impacting society and helping society by means of technology. <br></br>I have expertise in finding solutions of problems and learning through documentation</p>
+                <p>I am a software developer and a product designer. I believe in impacting society and helping society by means of technology. I have expertise in finding solutions of problems and learning through documentation</p>
               </div>
 
 
-           <ResearchPaper/>
-           <Techstack/>
-              <Projects/>
-               <BlogsList/>
-             <FooterNavigation/>
+              {/* <ResearchPaper/> */}
+              <Techstack />
+              <Projects />
+              <BlogsList />
+              <FooterNavigation />
 
             </div>
           </div>

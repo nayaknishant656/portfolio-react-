@@ -152,19 +152,19 @@ export default function Projects() {
   ];
 
   return (
-    <section style={{ padding: '32px 16px', maxWidth: '1200px', margin: '0 auto' }}>
-      {/* Upcoming Projects */}
-      <div className="rounded-lg border border-gray-200 p-4 md:p-6 mb-8">
-        <h3 className="text-xl md:text-2xl font-bold text-black mb-6">
+    <section style={{ padding: '8px 4px', maxWidth: '1200px', margin: '0 auto' }}>
+      {/* Upcoming Projects
+      <div className="rounded-lg p-1 mb-2">
+        <h3 className="text-xl md:text-2xl font-bold text-black mb-2">
           Upcoming Projects
         </h3>
-        
+
         <div className="flex flex-col gap-2">
           {upcomingProjects.map((project, index) => (
-            <div 
+            <div
               key={index}
-              className="relative p-3 rounded-lg hover:shadow-md transition-shadow"
-              style={{ background: 'white', border: '2px solid black' }}
+              className="relative p-2 rounded-lg hover:shadow-md transition-shadow"
+              style={{ background: 'white' }}
             >
               <div className="status-indicator"></div>
               <h2 style={{ fontSize: '14px', fontWeight: '600', marginBottom: '4px', color: 'black' }}>
@@ -176,21 +176,20 @@ export default function Projects() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Completed Projects */}
-      <div className="rounded-lg border border-gray-100 p-4 md:p-6">
-        <h3 className="text-xl md:text-2xl font-bold text-black mb-6">
+      <div className="rounded-lg p-1">
+        <h3 className="text-xl md:text-2xl font-bold text-black mb-2">
           Completed Projects
         </h3>
-        
-        <div 
-          className={`overflow-hidden transition-all duration-1000 ease-in-out ${
-            isExpanded ? 'max-h-[3000px] opacity-100' : 'max-h-[200px]'
-          }`}
+
+        <div
+          className={`overflow-hidden transition-all duration-1000 ease-in-out ${isExpanded ? 'max-h-[3000px] opacity-100' : 'max-h-[200px]'
+            }`}
         >
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
-            <div style={{ padding: '18px', borderRadius: '1px', border: '1px solid black', background: 'white' }}>
+            <div style={{ padding: '8px', borderRadius: '4px', background: 'white' }}>
               <h2 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
                 Doctor AI
               </h2>
@@ -239,10 +238,10 @@ export default function Projects() {
             className="flex items-center gap-1 px-3 py-1.5 bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium rounded-md transition-colors shadow-sm hover:shadow-md"
           >
             <span>{isExpanded ? 'Show Less' : 'Show More'}</span>
-            <svg 
+            <svg
               className={`w-4 h-4 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
-              fill="none" 
-              stroke="currentColor" 
+              fill="none"
+              stroke="currentColor"
               viewBox="0 0 24 24"
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
