@@ -189,8 +189,8 @@ export default function Projects() {
             }`}
         >
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
-            <div style={{ padding: '8px', borderRadius: '4px', background: 'white' }}>
-              <h2 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
+            <div style={{ padding: '8px', borderRadius: '4px', background: '#e3dacc' }}>
+              <h2 style={{ fontSize: '24px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
                 Doctor AI
               </h2>
               <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#374151', marginBottom: '12px' }}>
@@ -199,8 +199,8 @@ export default function Projects() {
               {renderTechStack(techStacks.doctorAI)}
             </div>
 
-            <div style={{ padding: '18px', borderRadius: '1px', border: '1px solid black', background: 'white' }}>
-              <h2 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
+            <div style={{ padding: '18px', borderRadius: '1px', background: '#e3dacc' }}>
+              <h2 style={{ fontSize: '24px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
                 RESTFUL API with Express.js and MongoDB
               </h2>
               <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#374151', marginBottom: '12px' }}>
@@ -209,8 +209,8 @@ export default function Projects() {
               {renderTechStack(techStacks.restAPI)}
             </div>
 
-            <div style={{ padding: '18px', borderRadius: '1px', border: '1px solid black', background: 'white' }}>
-              <h2 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
+            <div style={{ padding: '18px', borderRadius: '1px',  background: '#e3dacc' }}>
+              <h2 style={{ fontSize: '24px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
                 Temple Donation Management System
               </h2>
               <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#374151', marginBottom: '12px' }}>
@@ -219,8 +219,8 @@ export default function Projects() {
               {renderTechStack(techStacks.templeDonation)}
             </div>
 
-            <div style={{ padding: '18px', borderRadius: '1px', border: '1px solid black', background: 'white' }}>
-              <h2 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
+            <div style={{ padding: '18px', borderRadius: '1px', background: '#e3dacc' }}>
+              <h2 style={{ fontSize: '24px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
                 Ecommerce---MultiFeatures
               </h2>
               <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#374151', marginBottom: '12px' }}>

@@ -66,49 +66,40 @@ export default function TechStack() {
   return (
     <div className="my-2">
       <div className="rounded-lg p-1">
-        <h2 className="text-xl md:text-2xl font-bold text-white-200 mb-2">Tech Stack</h2>
+        <h2 className="text-xl md:text-2xl font-bold text-black mb-2">Tech Stack</h2>
 
         <div
           className={`overflow-hidden transition-all duration-1000 ease-in-out ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-[150px]'
             }`}
         >
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-1.5">
             {categories.map((category, idx) => (
               <div
                 key={idx}
-                className="rounded-lg p-1 hover:shadow-md transition-shadow"
-                style={{ background: 'white' }}
+                className="rounded-lg p-1 bg-transparent"
               >
                 <div className="flex items-center justify-between mb-1">
-                  <h3 className="text-sm md:text-base font-semibold" style={{ color: 'black' }}>
+                  <h3 className="text-sm md:text-base font-semibold text-black">
                     {category.title}
                   </h3>
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-3">
                     {category.title === "AI/ML & Infrastructure" && (
-                      <span className="px-2 py-1 bg-blue-500/20 text-blue-600 text-xs rounded-full border border-blue-500/30">
+                      <span className="px-2 py-1 bg-blue-500/20 text-blue-700 text-xs rounded-full border border-blue-500/30">
                         Learning
                       </span>
                     )}
-                    <div className="flex items-center gap-1">
-                      <span className="text-xs" style={{ color: '#6b7280' }}>Proficiency:</span>
-                      <span className="text-sm font-bold" style={{ color: 'black' }}>{category.proficiency}/10</span>
+                    <div className="flex items-center gap-1.5">
+                      <span className="text-xs text-gray-600">Proficiency:</span>
+                      <span className="text-sm font-bold text-black">{category.proficiency}/10</span>
                     </div>
                   </div>
                 </div>
 
-                {/* Proficiency bar */}
-                <div className="w-full h-1.5 bg-gray-200 rounded-full mb-1 overflow-hidden">
-                  <div
-                    className="h-full bg-gradient-to-r from-blue-500 to-purple-500 rounded-full transition-all duration-500"
-                    style={{ width: `${category.proficiency * 10}%` }}
-                  ></div>
-                </div>
-
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-3">
                   {category.icons.map((icon, iconIdx) => (
                     <div
                       key={iconIdx}
-                      className="flex flex-col items-center gap-1 transform hover:scale-105 transition-transform"
+                      className="flex flex-col items-center gap-1.5"
                       title={icon.name}
                     >
                       <img
@@ -117,7 +108,7 @@ export default function TechStack() {
                         className="w-10 h-10 object-contain"
                         loading="lazy"
                       />
-                      <span className="text-xs text-center font-medium" style={{ color: '#000000ff' }}>
+                      <span className="text-xs text-center font-medium text-black">
                         {icon.name}
                       </span>
                     </div>
@@ -132,7 +123,7 @@ export default function TechStack() {
         <div className="flex justify-center mt-1">
           <button
             onClick={toggleExpand}
-            className="flex items-center gap-1 px-3 py-1.5 bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium rounded-md transition-colors shadow-sm hover:shadow-md"
+            className="flex items-center gap-1 px-3 py-1.5 bg-blue-500 text-white text-sm font-medium rounded-md shadow-sm"
           >
             <span>{isExpanded ? 'Show Less' : 'Show More'}</span>
             <svg
