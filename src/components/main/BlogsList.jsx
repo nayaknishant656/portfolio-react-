@@ -62,7 +62,7 @@ export default function BlogsList() {
           <article
             key={blog.id}
             className="rounded-lg p-1 hover:shadow-lg transition-shadow duration-300 cursor-pointer flex flex-col h-full max-w-[280px]"
-            style={{ background: 'white' }}
+            style={{ background: 'transparent' }}
           >
             <time className="text-xs font-medium" style={{ color: '#6b7280' }}>
               {blog.date}
