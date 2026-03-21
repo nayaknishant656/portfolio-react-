@@ -9,6 +9,7 @@
 
 body {
   color: rgb(0, 0, 0);
+  background-color: #faf9f5;
 }
 
 .google-sans {
@@ -61,7 +62,8 @@ body {
 
 .main_grandparent_scale {
   /* width: 870px; */
-  border: solid 1px #0000000d;
+  margin: auto;
+  max-width: 1024px;
   margin: auto;
 }
 
