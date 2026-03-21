@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function TechStack() {
-  const [isExpanded, setIsExpanded] = useState(false);
-
   const categories = [
     {
       title: "AI/ML & Infrastructure",
@@ -59,19 +57,12 @@ export default function TechStack() {
     }
   ];
 
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded);
-  };
-
   return (
     <div className="my-2">
       <div className="rounded-lg p-1">
         <h2 className="text-xl md:text-2xl font-bold text-black mb-2">Tech Stack</h2>
 
-        <div
-          className={`overflow-hidden transition-all duration-1000 ease-in-out ${isExpanded ? 'max-h-[2000px] opacity-100' : 'max-h-[150px]'
-            }`}
-        >
+        <div>
           <div className="flex flex-col gap-1.5">
             {categories.map((category, idx) => (
               <div
@@ -119,23 +110,6 @@ export default function TechStack() {
           </div>
         </div>
 
-        {/* Arrow Button */}
-        <div className="flex justify-center mt-1">
-          <button
-            onClick={toggleExpand}
-            className="flex items-center gap-1 px-3 py-1.5 bg-blue-500 text-white text-sm font-medium rounded-md shadow-sm"
-          >
-            <span>{isExpanded ? 'Show Less' : 'Show More'}</span>
-            <svg
-              className={`w-4 h-4 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-        </div>
       </div>
     </div>
   );

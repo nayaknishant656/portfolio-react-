@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 export default function Projects() {
-  const [isExpanded, setIsExpanded] = useState(false);
-
   useEffect(() => {
     const style = document.createElement('style');
     style.textContent = `
@@ -132,10 +130,6 @@ export default function Projects() {
     );
   };
 
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded);
-  };
-
   const upcomingProjects = [
     {
       title: "AI Chatbot",
@@ -184,10 +178,7 @@ export default function Projects() {
           Completed Projects
         </h3>
 
-        <div
-          className={`overflow-hidden transition-all duration-1000 ease-in-out ${isExpanded ? 'max-h-[3000px] opacity-100' : 'max-h-[200px]'
-            }`}
-        >
+        <div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
             <div style={{ padding: '8px', borderRadius: '4px', background: '#e3dacc' }}>
               <h2 style={{ fontSize: '24px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
@@ -209,7 +200,7 @@ export default function Projects() {
               {renderTechStack(techStacks.restAPI)}
             </div>
 
-            <div style={{ padding: '18px', borderRadius: '1px',  background: '#e3dacc' }}>
+            <div style={{ padding: '18px', borderRadius: '1px', background: '#e3dacc' }}>
               <h2 style={{ fontSize: '24px', fontWeight: '600', marginBottom: '10px', color: 'black' }}>
                 Temple Donation Management System
               </h2>
@@ -231,23 +222,6 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* Arrow Button */}
-        <div className="flex justify-center mt-3">
-          <button
-            onClick={toggleExpand}
-            className="flex items-center gap-1 px-3 py-1.5 bg-blue-500 hover:bg-blue-600 text-white text-sm font-medium rounded-md transition-colors shadow-sm hover:shadow-md"
-          >
-            <span>{isExpanded ? 'Show Less' : 'Show More'}</span>
-            <svg
-              className={`w-4 h-4 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-        </div>
       </div>
     </section>
   );
