@@ -6,42 +6,42 @@ export default function BlogsList() {
       id: 1,
       title: "Building Scalable AI Agents with LangChain",
       date: "December 15, 2024",
-      tldr: "Learn how to build production-ready AI agents using LangChain, covering memory management, tool integration, and deployment strategies.",
+      tldr: "",
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=250&fit=crop"
     },
     {
       id: 2,
       title: "Real-time Collaboration: WebSockets vs WebRTC",
       date: "December 10, 2024",
-      tldr: "A comprehensive comparison of WebSockets and WebRTC for building real-time collaborative applications, with code examples and performance metrics.",
+      tldr: "",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop"
     },
     {
       id: 3,
       title: "Securing Your Node.js Backend: Best Practices",
       date: "December 5, 2024",
-      tldr: "Essential security practices for Node.js applications including authentication, authorization, rate limiting, and preventing common vulnerabilities.",
+      tldr: "",
       image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop"
     },
     {
       id: 4,
       title: "From Monolith to Microservices: A Journey",
       date: "November 28, 2024",
-      tldr: "Our experience migrating a monolithic application to microservices architecture, including challenges faced and lessons learned.",
+      tldr: "",
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=250&fit=crop"
     },
     {
       id: 5,
       title: "Optimizing React Performance at Scale",
       date: "November 20, 2024",
-      tldr: "Proven techniques for optimizing large React applications including code splitting, memoization, and virtual scrolling implementation.",
+      tldr: "",
       image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=250&fit=crop"
     },
     {
       id: 6,
       title: "Database Indexing: When and How",
       date: "November 15, 2024",
-      tldr: "Deep dive into database indexing strategies, covering B-tree vs hash indexes, composite indexes, and query optimization techniques.",
+      tldr: "",
       image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=250&fit=crop"
     }
   ];
@@ -52,9 +52,9 @@ export default function BlogsList() {
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-black">
           Latest Blog Posts
         </h2>
-        <p className="text-sm md:text-base text-gray-600 mt-2">
+        {/* <p className="text-sm md:text-base text-gray-600 mt-2">
           Insights, tutorials, and thoughts on software development
-        </p>
+        </p> */}
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">
@@ -72,12 +72,12 @@ export default function BlogsList() {
               {blog.title}
             </h3>
 
-            <p className="text-xs leading-relaxed line-clamp-3 mb-2 flex-grow" style={{ color: '#374151' }}>
+            {/* <p className="text-xs leading-relaxed line-clamp-3 mb-2 flex-grow" style={{ color: '#374151' }}>
               <span className="font-semibold" style={{ color: '#1f2937' }}>TL;DR: </span>
               {blog.tldr}
-            </p>
+            </p> */}
 
-            <div className="flex items-center mt-auto pt-2" style={{ borderTop: '1px solid #e5e7eb' }}>
+            <div className="flex items-center mt-auto pt-2" style={{}}>
               <div className="flex items-center text-blue-600 text-xs font-medium hover:text-blue-700 transition-colors">
                 Read more
                 <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

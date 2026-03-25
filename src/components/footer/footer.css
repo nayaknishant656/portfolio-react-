@@ -1,13 +1,13 @@
 .main-parent {
     position: absolute;
-    bottom: 0px;
+    /* bottom: 0px; */
     font-size: 12.2px;
-    border-top: solid 1px black;
+    border-top: solid 1px rgba(0, 0, 0, 0.293);
     padding: 20px 6%;
     width: 100%;
 }
 
-.main-parent>p  {
+.main-parent>p {
     text-align: center;
 }
 
