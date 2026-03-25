@@ -4,7 +4,7 @@ import { FaBeer } from 'react-icons/fa';
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function relativepath({ item }) {
-  const { id, title, des, tech, keypoints, img, date, feat, link, upcoming } = item;
+  const { id, title, des, tech, keypoints, img, date, feat, link, upcoming, category } = item;
   return (
     <div className='para'>
       {/* <h1 >{title}</h1> */}
@@ -14,6 +14,11 @@ export default function relativepath({ item }) {
           Upcoming Project
         </h2>
       ) : null}
+      {/* {category ? (
+        <h2 className='category-project' style={{ color: 'blue', fontWeight: 'plain', width: "fit-content" }}>
+          {category}
+        </h2>
+      ) : null} */}
       <h2 className='date-portfolio'>{date}
       </h2>
       {link ? (
