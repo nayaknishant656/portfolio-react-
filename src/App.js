@@ -6,7 +6,7 @@ import Footer from "./components/footer/footer";
 import Twiiter from "./components/twiiter/twiter"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Switch } from "react-router";
-import Main from "./components/main/main"; 
+import Main from "./components/main/main";
 import Timeline from './components/timeline/timeline';
 import Blogs from './components/blogs/blogs';
 import Gallery from './components/gallery/gallery';
@@ -14,19 +14,21 @@ import Source from './components/source/source';
 import Youtubeblog from './components/Youtubeblog/youtubeblog'
 function App() {
   return (
-   <><div className='main_grandparent_scale'> 
-    <Header/>
+    <><div className='main_grandparent_scale'>
+      <Header />
       <Switch>
-         <Route exact path="/" render={props => <Main />} />
-         <Route exact path="/Body" render={props => <Body />} />
-         <Route exact path="/Twitter" render={props => <Twiiter />} />
-          <Route exact path="/Source" render={props => <Source />} />
-          <Route exact path="/Timeline" render={props => <Timeline />} />
-          <Route exact path="/Blogs" render={props => <Blogs />} />
-          <Route exact path="/Gallery" render={props => <Gallery/>} />
-          <Route exact path="/Youtubeblog" render={props => <Youtubeblog/>} />
-        </Switch>
-       </div></>
+        <Route exact path="/" render={props => <Main />} />
+        <Route exact path="/Body" render={props => <Body />} />
+        <Route exact path="/Twitter" render={props => <Twiiter />} />
+        <Route exact path="/Source" render={props => <Source />} />
+        <Route exact path="/Timeline" render={props => <Timeline />} />
+        <Route exact path="/Blogs" render={props => <Blogs />} />
+        <Route exact path="/Gallery" render={props => <Gallery />} />
+        <Route exact path="/Youtubeblog" render={props => <Youtubeblog />} />
+      </Switch>
+      <Footer />
+    </div>
+    </>
   );
 }
 export default App;

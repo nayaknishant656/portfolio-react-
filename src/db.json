@@ -1,26 +1,187 @@
 [
   {
     "id": 1,
-    "title": "LLM Models Training and RAG System with memory and Docker",
+    "title": "Snappy-Poornima",
     "upcoming": true,
     "date": "Jan/2026",
-    "des": "A high-performance RAG (Retrieval-Augmented Generation) architecture designed for domain-specific knowledge retrieval. It features a sophisticated memory management system to maintain conversational context and is fully containerized for scalable deployment.",
+    "des": "Campus-network-talent-hiring-resource-assymentry",
     "img": "",
     "link": "",
-    "tech": "Next JS, Python, LangChain, Pinecone, Docker, Node"
+    "tech": "Next JS, Python, LangChain, Pinecone, Docker, Node",
+    "category": "Impactful Project"
   },
   {
     "id": 2,
-    "title": "Agentic AI driven Sales Platform for E-commerce",
-    "upcoming": true,
-    "date": "November/2025",
-    "des": "An intelligent e-commerce ecosystem that utilizes autonomous AI agents to drive sales. The platform automates product recommendations, handles complex customer queries, and executes sales-closing strategies without human intervention.",
+    "title": "API-Playground",
+    "upcoming": false,
+    "date": "Feb/2026",
+    "des": "It was Assigment Project , I was assined to develop complex Rest Endpoint, i Developed Sevreral Endpoint with Search , category Endpoints , Designed the Mongodb Database Accordingly , Developed Minial UI in VITE for UI interface",
     "img": "",
     "link": "",
-    "tech": "Next JS, OpenAI SDK, Gemini 2.0, TypeScript, Node"
+    "tech": "Vite, MongoDB, Express, Node, Vercel",
+    "category": "Assignment Project",
+    "keypoints": [
+      {
+        "text": "Developed a RESTful API with multiple endpoints for product management and search functionality., Create Product , Search , category , "
+      },
+      {
+        "text": "Designed and implemented a MongoDB schema for efficient data storage and retrieval."
+      },
+      {
+        "text": "Built a minimal UI using Vite for testing and demonstrating the API endpoints."
+      },
+      {
+        "text": "Implemented search and filtering capabilities for products based on category and other criteria."
+      }
+    ]
   },
   {
     "id": 3,
+    "title": "TASK-MEDIA",
+    "upcoming": false,
+    "date": "Jan/2026",
+    "des": "It was assigment Project where i was assigned to implement JWT authentication and Develop ENdpoint ACcording to the feature and Design MOnogdb Schema Accordingly as well",
+    "img": "https://ai-resume-builder-sample.vercel.app/",
+    "link": "",
+    "tech": "Next, Tailwind CSS, Node, MongoDB, Expressjs, JWT-authenticatio",
+    "category": "Assignment Project",
+    "keypoints": [
+      {
+        "text": "Integrated OpenAI GPT-4 to generate and rewrite resume sections based on job descriptions."
+      },
+      {
+        "text": "Built a real-time resume preview with PDF export functionality."
+      },
+      {
+        "text": "Implemented user authentication and resume history storage using MongoDB."
+      },
+      {
+        "text": "Designed fully responsive UI with Tailwind CSS and drag-and-drop section reordering."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "PREDUSK-Talent Bride",
+    "upcoming": false,
+    "date": "feb/2026",
+    "des": "It was assigment Project, where i developed and Designned Monogdb Database Schema , with speicific Search ENdpoint in RESTFul api in the express js , USed Vite for Frontend and Express Js for the Server and Backend",
+    "img": "",
+    "link": "",
+    "tech": "Vite, Expressjs, RESTFUl, MOnogdb , Javascript",
+    "category": "Personal Project",
+    "keypoints": [
+      {
+        "text": "Used Socket.io for real-time bi-directional communication between multiple users."
+      },
+      {
+        "text": "Integrated Monaco Editor (VS Code's editor engine) for a rich coding experience."
+      },
+      {
+        "text": "Implemented live code execution sandbox using Docker containers for isolation."
+      },
+      {
+        "text": "Used Redis for session management and room state persistence."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "TRADE-Platform",
+    "upcoming": false,
+    "date": "Feb/2026",
+    "des": "it was a assigmnet project assiget to me to build a platform where listing of Products and Clinet can Publish Product, Creare , delete , update , Edit , WIth Jwt Verification for the Singh in and singh Ups ",
+    "img": "https://smartexpense-sample.netlify.app/",
+    "link": "",
+    "tech": "React, Nodejs, Expressjs, MongoDB, JWT, ",
+    "category": "Assignment Project",
+    "repo": [
+      {
+        "name": "Frontend",
+        "link": "https://github.com/Nishant-Nayak-007/Trade-Platform-Frontend"
+      },
+      {
+        "name": "Backend",
+        "link": "https://github.com/Nishant-Nayak-007/Trade-Platform-Backend"
+      }
+    ],
+    "keypoints": [
+      {
+        "text": "Built a React frontend for the platform with a clean and intuitive user interface."
+      },
+      {
+        "text": "Used Node.js and Express.js to build a RESTful API for the platform. Used MongoDB database for storing the data."
+      },
+      {
+        "text": "Implemented Jwt Verification for the Singh in and singh Ups , designed the database schema "
+      },
+      {
+        "text": "Added a feature to create , delete , update , Edit , Products and Listing Of Prodcuts with Product details page with Filterning and Sorting Funcanalitty, Implemented JWT only for sing in and Singh Ups"
+      }
+    ],
+    "refercne": [
+      {
+        "refno": "1",
+        "link": "https://github.com/Nishant-Nayak-007/Trade-Platform-Frontend"
+      },
+      {
+        "refno": "2",
+        "link": "https://github.com/Nishant-Nayak-007/Trade-Platform-Backend"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "RTSE-Go to WEBRTC",
+    "upcoming": false,
+    "date": "January/2024",
+    "des": "A job board aggregator that scrapes and consolidates listings from multiple platforms and uses AI to match candidates with the most relevant roles based on their resume and preferences.",
+    "img": "https://jobspark-sample.vercel.app/",
+    "link": "",
+    "tech": "Next JS, Python, BeautifulSoup, OpenAI API, PostgreSQL, Tailwind CSS",
+    "category": "Personal Project",
+    "keypoints": [
+      {
+        "text": "Built web scrapers in Python using BeautifulSoup to pull listings from LinkedIn, Naukri, and Indeed."
+      },
+      {
+        "text": "Used OpenAI embeddings to rank and match jobs based on resume similarity scores."
+      },
+      {
+        "text": "Implemented filters for location, salary range, experience level, and tech stack."
+      },
+      {
+        "text": "Designed a clean dashboard with saved jobs, application tracking, and email alerts."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Emotionally-AI",
+    "upcoming": false,
+    "date": "March/2026",
+    "des": "it was Assigment Project , where i Integrated a Open ai model with blend with Express and MongoDb , generating Insights about the emotional state of jourling and then sorting that information to Mongodb and Expressjs",
+    "img": "https://linksnap-sample.netlify.app/",
+    "link": "",
+    "tech": "Nextjs, Node, Express, MongoDB,",
+    "category": "Assigmnet Project",
+    "keypoints": [
+      {
+        "text": "Built a custom short URL generator with support for vanity/custom aliases."
+      },
+      {
+        "text": "Used Redis for caching frequent redirects to minimize database load."
+      },
+      {
+        "text": "Integrated click analytics tracking device type, browser, and geolocation data."
+      },
+      {
+        "text": "Added QR code generation and link expiry with auto-deactivation after set date."
+      }
+    ]
+  },
+  {
+    "id": 8,
     "title": "Doctor_AI",
     "upcoming": false,
     "date": "March/2025",
@@ -28,6 +189,7 @@
     "img": "https://main.d3f97a5gw6007u.amplifyapp.com/",
     "link": "",
     "tech": "Next JS, JavaScript, CSS, typescript, Node , ",
+    "category": "Impactful Project",
     "keypoints": [
       {
         "text": "Built using Next.js."
@@ -44,7 +206,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "Paardarshi",
     "upcoming": false,
     "date": "March/2024",
@@ -52,6 +214,7 @@
     "img": "https://paardarshi-frontend.vercel.app/",
     "link": "https://backend-paardarshi.vercel.app/shoes",
     "tech": "React, JavaScript, CSS, React-Router, Node , Express, Mongodb",
+    "category": "Impactful Project",
     "keypoints": [
       {
         "text": "Built using React.js., Developed own http server using express js , it has features of searching, sorting , search by id , used mongoose and mongodb for database"
@@ -68,12 +231,13 @@
     ]
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "React E-commerce Webapp",
     "date": "May/2023",
     "des": "I built a web app in March 2023 when there was a great rush for React and JavaScript. Fortunately, due to my JavaScript skills, I was able to complete this web app in 5 days before the peak of the React and JavaScript rush.",
     "img": "https://lustrous-moonbeam-ea4656.netlify.app/",
     "tech": "React, JavaScript, CSS, React-Router",
+    "category": "Assignment Project",
     "keypoints": [
       {
         "text": "Used React-Router and Owl Carousel."
@@ -90,12 +254,13 @@
     ]
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "React-ChatRoom-Frontend",
     "date": "May/2023",
     "des": "This project was assigned to me during an interview in July 2023 for a startup. I got shortlisted, but due to academic commitments, I didn't accept the offer.",
     "img": "https://react-chat-room-frontend.vercel.app/",
     "tech": "CSS, JavaScript",
+    "category": "Assignment Project",
     "keypoints": [
       {
         "text": "Built frontend using CSS and JavaScript."
@@ -103,12 +268,13 @@
     ]
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "Kissan",
     "date": "May/2023",
     "des": "It was a simple startup I built back in the day. For scaling, I used various web scraping techniques and built a WhatsApp bulk sender using WBM. I received many responses, but unfortunately, I had to shut it down.",
     "img": "https://nawnitstudio.000webhostapp.com/rev/index.html",
     "tech": "CSS, JavaScript",
+    "category": "Personal Project",
     "keypoints": [
       {
         "text": "Built frontend using CSS and JavaScript."
@@ -122,12 +288,13 @@
     ]
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "Ppassport",
     "date": "August/2021",
     "des": "I built a business that helps people get their passport photos using their ID. It is currently active.",
     "img": "https://nawnitstudio.000webhostapp.com/",
     "tech": "React, JavaScript, CSS, React-Router",
+    "category": "Personal Project",
     "keypoints": [
       {
         "text": "Built Using , HTML, CSS, PHP, MYSQLDB"
@@ -144,12 +311,13 @@
     ]
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "Certificate Generator",
     "date": "August/2022",
     "des": "I built a platform for my village temple where the main aim was to market and collect donations by generating certificates. The idea was to encourage people to put these certificates as their WhatsApp status to create social 'FOMO' in the community.",
     "img": "https://nawnitstudio.000webhostapp.com/certificate/index.html",
     "tech": "React, JavaScript, CSS, React-Router",
+    "category": "Impactful Project",
     "keypoints": [
       {
         "text": "Built using React.js."
@@ -166,12 +334,13 @@
     ]
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "Nawnit Studio Prints",
     "date": "april/2021",
     "des": "This project built my confidence. When I was 16, during the first wave of COVID-19 in the second week of the 21-day quarantine, I started this project. From then until August 2020, I worked on building multiple registration forms, integrating MySQL with PHP, and setting up payment gateways.",
     "img": "https://nawnitstudio.000webhostapp.com/nawnit/index.html",
     "tech": "React, JavaScript, CSS, React-Router",
+    "category": "Personal Project",
     "keypoints": [
       {
         "text": "Built using JavaScript."
@@ -188,11 +357,12 @@
     ]
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "OFFLINE",
     "des": "A boredom project I worked on for fun.",
     "img": "https://nawnitstudio.000webhostapp.com/oac/index.html",
     "tech": "React, JavaScript, CSS, React-Router",
+    "category": "Personal Project",
     "keypoints": [
       {
         "text": "Built using React.js."
