@@ -4,7 +4,7 @@
     "title": "Snappy-Poornima",
     "upcoming": true,
     "date": "Jan/2026",
-    "des": "Campus-network-talent-hiring-resource-assymentry",
+    "des": "Campus-network-talent-hiring-resource-asymmetry",
     "img": "",
     "link": "",
     "tech": "Next JS, Python, LangChain, Pinecone, Docker, Node",
@@ -15,14 +15,14 @@
     "title": "API-Playground",
     "upcoming": false,
     "date": "Feb/2026",
-    "des": "It was Assigment Project , I was assined to develop complex Rest Endpoint, i Developed Sevreral Endpoint with Search , category Endpoints , Designed the Mongodb Database Accordingly , Developed Minial UI in VITE for UI interface",
-    "img": "",
+    "des": "It was an Assignment Project. I was assigned to develop complex REST Endpoints. I developed several endpoints with Search and Category Endpoints, designed the MongoDB database accordingly, and developed a minimal UI in Vite for the UI interface.",
+    "img": "https://predusk-frontend-react-geyj.vercel.app/",
     "link": "",
     "tech": "Vite, MongoDB, Express, Node, Vercel",
     "category": "Assignment Project",
     "keypoints": [
       {
-        "text": "Developed a RESTful API with multiple endpoints for product management and search functionality., Create Product , Search , category , "
+        "text": "Developed a RESTful API with multiple endpoints for product management and search functionality. Create Product, Search, Category."
       },
       {
         "text": "Designed and implemented a MongoDB schema for efficient data storage and retrieval."
@@ -37,51 +37,26 @@
   },
   {
     "id": 3,
-    "title": "TASK-MEDIA",
+    "title": "TASK-Planet",
     "upcoming": false,
     "date": "Jan/2026",
-    "des": "It was assigment Project where i was assigned to implement JWT authentication and Develop ENdpoint ACcording to the feature and Design MOnogdb Schema Accordingly as well",
-    "img": "https://ai-resume-builder-sample.vercel.app/",
+    "des": "It was an Assignment Project where I was assigned to implement JWT authentication login, sign-ups, and authentication validation in every request, and develop a feature where users post tasks that appear in a card showing the number of likes and comments.",
+    "img": "https://task-media-app-frontend-fred.vercel.app/",
     "link": "",
-    "tech": "Next, Tailwind CSS, Node, MongoDB, Expressjs, JWT-authenticatio",
+    "tech": "React, Tailwind CSS, Node, MongoDB, Express.js, JWT Authentication",
     "category": "Assignment Project",
     "keypoints": [
       {
-        "text": "Integrated OpenAI GPT-4 to generate and rewrite resume sections based on job descriptions."
+        "text": "Implemented JWT authentication login, sign-ups, and authentication validation in every request."
       },
       {
-        "text": "Built a real-time resume preview with PDF export functionality."
+        "text": "Built a feature where users can post tasks that appear in a card showing the number of likes and comments."
       },
       {
-        "text": "Implemented user authentication and resume history storage using MongoDB."
+        "text": "Simple intuitive UI with Tailwind CSS."
       },
       {
         "text": "Designed fully responsive UI with Tailwind CSS and drag-and-drop section reordering."
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "PREDUSK-Talent Bride",
-    "upcoming": false,
-    "date": "feb/2026",
-    "des": "It was assigment Project, where i developed and Designned Monogdb Database Schema , with speicific Search ENdpoint in RESTFul api in the express js , USed Vite for Frontend and Express Js for the Server and Backend",
-    "img": "",
-    "link": "",
-    "tech": "Vite, Expressjs, RESTFUl, MOnogdb , Javascript",
-    "category": "Personal Project",
-    "keypoints": [
-      {
-        "text": "Used Socket.io for real-time bi-directional communication between multiple users."
-      },
-      {
-        "text": "Integrated Monaco Editor (VS Code's editor engine) for a rich coding experience."
-      },
-      {
-        "text": "Implemented live code execution sandbox using Docker containers for isolation."
-      },
-      {
-        "text": "Used Redis for session management and room state persistence."
       }
     ]
   },
@@ -90,10 +65,10 @@
     "title": "TRADE-Platform",
     "upcoming": false,
     "date": "Feb/2026",
-    "des": "it was a assigmnet project assiget to me to build a platform where listing of Products and Clinet can Publish Product, Creare , delete , update , Edit , WIth Jwt Verification for the Singh in and singh Ups ",
-    "img": "https://smartexpense-sample.netlify.app/",
+    "des": "It was an Assignment Project assigned to me to build a platform for listing products where clients can publish, create, delete, update, and edit products, with JWT verification for sign-in and sign-ups.",
+    "img": "https://tradeai-platform.vercel.app/",
     "link": "",
-    "tech": "React, Nodejs, Expressjs, MongoDB, JWT, ",
+    "tech": "React, Node.js, Express.js, MongoDB, JWT",
     "category": "Assignment Project",
     "repo": [
       {
@@ -113,13 +88,13 @@
         "text": "Used Node.js and Express.js to build a RESTful API for the platform. Used MongoDB database for storing the data."
       },
       {
-        "text": "Implemented Jwt Verification for the Singh in and singh Ups , designed the database schema "
+        "text": "Implemented JWT verification for sign-in and sign-ups, and designed the database schema."
       },
       {
-        "text": "Added a feature to create , delete , update , Edit , Products and Listing Of Prodcuts with Product details page with Filterning and Sorting Funcanalitty, Implemented JWT only for sing in and Singh Ups"
+        "text": "Added features to create, delete, update, and edit products, along with a product listing page with product details, filtering, and sorting functionality. Implemented JWT only for sign-in and sign-ups."
       }
     ],
-    "refercne": [
+    "reference": [
       {
         "refno": "1",
         "link": "https://github.com/Nishant-Nayak-007/Trade-Platform-Frontend"
@@ -160,23 +135,23 @@
     "title": "Emotionally-AI",
     "upcoming": false,
     "date": "March/2026",
-    "des": "it was Assigment Project , where i Integrated a Open ai model with blend with Express and MongoDb , generating Insights about the emotional state of jourling and then sorting that information to Mongodb and Expressjs",
+    "des": "It was an Assignment Project where I integrated an OpenAI model blended with Express and MongoDB, generating insights about the emotional state of journaling and then storing that information to MongoDB via Express.js.",
     "img": "https://linksnap-sample.netlify.app/",
     "link": "",
-    "tech": "Nextjs, Node, Express, MongoDB,",
-    "category": "Assigmnet Project",
+    "tech": "Next.js, Node, Express, MongoDB, OpenAI",
+    "category": "Assignment Project",
     "keypoints": [
       {
-        "text": "Built a custom short URL generator with support for vanity/custom aliases."
+        "text": "Integrated OpenAI for the analysis of journals and generating insights about the emotional state of journaling."
       },
       {
-        "text": "Used Redis for caching frequent redirects to minimize database load."
+        "text": "Developed 5+ endpoints to store and retrieve data from the MongoDB database."
       },
       {
-        "text": "Integrated click analytics tracking device type, browser, and geolocation data."
+        "text": "Developed an intuitive UI in Next.js with Tailwind CSS."
       },
       {
-        "text": "Added QR code generation and link expiry with auto-deactivation after set date."
+        "text": "Developed search functionality to search insights based on the User ID."
       }
     ]
   },
@@ -185,23 +160,23 @@
     "title": "Doctor_AI",
     "upcoming": false,
     "date": "March/2025",
-    "des": "Doctor_AI is the online Blood report Analysis webapp , where it analysis your blood report pdf and gives you brief information about your blood health ",
+    "des": "Doctor_AI is an online blood report analysis web app that analyzes your blood report PDF and gives you brief information about your blood health.",
     "img": "https://main.d3f97a5gw6007u.amplifyapp.com/",
     "link": "",
-    "tech": "Next JS, JavaScript, CSS, typescript, Node , ",
+    "tech": "Next JS, JavaScript, CSS, TypeScript, Node",
     "category": "Impactful Project",
     "keypoints": [
       {
         "text": "Built using Next.js."
       },
       {
-        "text": "Developed 2 microservices to parse the pdf and analyze the pdf "
+        "text": "Developed 2 microservices to parse and analyze the PDF."
       },
       {
-        "text": "Used Gemini 2.0 model for the analysis of pdf "
+        "text": "Used Gemini 2.0 model for the analysis of the PDF."
       },
       {
-        "text": "Currently developing the analysis dashboard and additional features like download report, whatsapp shareable link , and best doctor recommendation system to recommend you best doctor in your region for your health diagnostic based on your blood analysis health report "
+        "text": "Currently developing the analysis dashboard and additional features like download report, WhatsApp shareable link, and a best doctor recommendation system to recommend the best doctor in your region based on your blood analysis health report."
       }
     ]
   },
@@ -210,20 +185,20 @@
     "title": "Paardarshi",
     "upcoming": false,
     "date": "March/2024",
-    "des": "I built a web portal called Paardarshi for my Society. It is a transparent medium that helps donors verify and check their donated money authentically. A fun fact about this project is that I built it entirely on YouTube live.",
+    "des": "I built a web portal called Paardarshi for my society. It is a transparent medium that helps donors verify and check their donated money authentically. A fun fact about this project is that I built it entirely on a YouTube live stream.",
     "img": "https://paardarshi-frontend.vercel.app/",
     "link": "https://backend-paardarshi.vercel.app/shoes",
-    "tech": "React, JavaScript, CSS, React-Router, Node , Express, Mongodb",
+    "tech": "React, JavaScript, CSS, React-Router, Node, Express, MongoDB",
     "category": "Impactful Project",
     "keypoints": [
       {
-        "text": "Built using React.js., Developed own http server using express js , it has features of searching, sorting , search by id , used mongoose and mongodb for database"
+        "text": "Built using React.js. Developed own HTTP server using Express.js. Features include searching, sorting, search by ID. Used Mongoose and MongoDB for the database."
       },
       {
         "text": "Features include searching, sorting, receipt printing, and WhatsApp shareable receipts."
       },
       {
-        "text": "Add Certificate image Generation Feature and Added funcationality Of Download in Jpg, Responsive Design in all devices"
+        "text": "Added certificate image generation feature and added functionality of download in JPG. Responsive design on all devices."
       },
       {
         "text": "Backend developed with Node.js and Express.js."
@@ -246,7 +221,7 @@
         "text": "Functionality: Add to cart, checkout page, and various React hooks."
       },
       {
-        "text": "Used JavaScript libraries like Fabric.js and Image Carousel. responsive in all devices"
+        "text": "Used JavaScript libraries like Fabric.js and Image Carousel. Responsive on all devices."
       },
       {
         "text": "Backend developed with Node.js, Express.js, and JavaScript."
@@ -293,20 +268,20 @@
     "date": "August/2021",
     "des": "I built a business that helps people get their passport photos using their ID. It is currently active.",
     "img": "https://nawnitstudio.000webhostapp.com/",
-    "tech": "React, JavaScript, CSS, React-Router",
+    "tech": "HTML, CSS, PHP, MySQL",
     "category": "Personal Project",
     "keypoints": [
       {
-        "text": "Built Using , HTML, CSS, PHP, MYSQLDB"
+        "text": "Built using HTML, CSS, PHP, MySQL DB."
       },
       {
-        "text": "Developed Interface for both Interface , image Upload, Image Fetch"
+        "text": "Developed interface for both image upload and image fetch."
       },
       {
-        "text": "used Php to connect to MYSQL database , Design the Database Scheme, Perfomred data upload and data Fetching"
+        "text": "Used PHP to connect to MySQL database, designed the database schema, performed data upload and data fetching."
       },
       {
-        "text": "Key funcationality :- Image Upload , Image Fetching"
+        "text": "Key functionality: Image Upload, Image Fetching."
       }
     ]
   },
@@ -314,7 +289,7 @@
     "id": 14,
     "title": "Certificate Generator",
     "date": "August/2022",
-    "des": "I built a platform for my village temple where the main aim was to market and collect donations by generating certificates. The idea was to encourage people to put these certificates as their WhatsApp status to create social 'FOMO' in the community.",
+    "des": "I built a platform for my village temple where the main aim was to market and collect donations by generating certificates. The idea was to encourage people to put these certificates as their WhatsApp status to create social FOMO in the community.",
     "img": "https://nawnitstudio.000webhostapp.com/certificate/index.html",
     "tech": "React, JavaScript, CSS, React-Router",
     "category": "Impactful Project",
@@ -336,7 +311,7 @@
   {
     "id": 15,
     "title": "Nawnit Studio Prints",
-    "date": "april/2021",
+    "date": "April/2021",
     "des": "This project built my confidence. When I was 16, during the first wave of COVID-19 in the second week of the 21-day quarantine, I started this project. From then until August 2020, I worked on building multiple registration forms, integrating MySQL with PHP, and setting up payment gateways.",
     "img": "https://nawnitstudio.000webhostapp.com/nawnit/index.html",
     "tech": "React, JavaScript, CSS, React-Router",
