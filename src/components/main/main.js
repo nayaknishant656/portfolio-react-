@@ -18,15 +18,17 @@ export default function main() {
             <div className='main-heading-part'>
               <h1>Hey , Nishant this side,</h1>
               <Typewriter className="main-heainding-part-typewriter"
+                options={{
+                  loop: true,
+                }}
                 onInit={(typewriter) => {
                   typewriter
-                    .pauseFor(2500).typeString('<h1><strong>Staff Engineer</strong></h1>')
-                    .pauseFor(300).deleteChars(19)
-                    .pauseFor(3000).typeString('<h1><strong>Software Developer</strong></h1>')
-                    .deleteChars(19)
-                    .pauseFor(3000)
-                    .typeString('<h1><strong>Software Architecture</strong></h1>')
-                    .pauseFor(1000)
+                    .pauseFor(2500).typeString('<h1><strong>Research Enthusiast</strong></h1>')
+                    .pauseFor(6000).deleteChars(19)
+                    .pauseFor(6000).typeString('<h1><strong>Software Developer</strong></h1>')
+                    .pauseFor(6000).deleteChars(18)
+                    .pauseFor(6000).typeString('<h1><strong>Software Architecture</strong></h1>')
+                    .pauseFor(6000).deleteChars(21)
                     .start()
                 }}
               />
