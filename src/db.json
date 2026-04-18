@@ -9,15 +9,11 @@
     "link": "",
     "tech": "Next JS, Python, LangChain, Pinecone, Docker, Node",
     "category": "Impactful Project",
-    "images": [
-      "https://picsum.photos/seed/snappy1/800/500",
-      "https://picsum.photos/seed/snappy2/800/500",
-      "https://picsum.photos/seed/snappy3/800/500"
-    ]
+    "images": []
   },
   {
     "id": 2,
-    "title": "API-Playground",
+    "title": "API-Playground-Assessement",
     "upcoming": false,
     "date": "Feb/2026",
     "des": "It was an Assignment Project. I was assigned to develop complex REST Endpoints. I developed several endpoints with Search and Category Endpoints, designed the MongoDB database accordingly, and developed a minimal UI in Vite for the UI interface.",
@@ -26,9 +22,8 @@
     "tech": "Vite, MongoDB, Express, Node, Vercel",
     "category": "Assignment Project",
     "images": [
-      "https://picsum.photos/seed/api1/800/500",
-      "https://picsum.photos/seed/api2/800/500",
-      "https://picsum.photos/seed/api3/800/500"
+      "https://i.postimg.cc/3RVRvvfr/API-PLAYGROUND.png",
+      "https://i.postimg.cc/fLJyyKKF/DF-PLAYGROUND.png"
     ],
     "keypoints": [
       {
@@ -48,6 +43,7 @@
   {
     "id": 3,
     "title": "TASK-Planet",
+    "assigmnetlink": "https://docs.google.com/document/d/1ZMm1O0bUiFD73ukzk-nykVmNwEETuVIwK-JF7bbpPkI/edit?tab=t.0#heading=h.xbf7kjro7pto",
     "upcoming": false,
     "date": "Jan/2026",
     "des": "It was an Assignment Project where I was assigned to implement JWT authentication login, sign-ups, and authentication validation in every request, and develop a feature where users post tasks that appear in a card showing the number of likes and comments.",
@@ -86,8 +82,8 @@
     "tech": "React, Node.js, Express.js, MongoDB, JWT",
     "category": "Assignment Project",
     "images": [
-      "https://picsum.photos/seed/trade1/800/500",
-      "https://picsum.photos/seed/trade2/800/500",
+      "https://i.postimg.cc/rmmcgwR2/Trade-AI.png",
+      "https://i.postimg.cc/JhRRDq1P/Gemini-Generated-Image-oi1z0toi1z0toi1z.png",
       "https://picsum.photos/seed/trade3/800/500"
     ],
     "repo": [
@@ -136,9 +132,7 @@
     "tech": "Next JS, Python, BeautifulSoup, OpenAI API, PostgreSQL, Tailwind CSS",
     "category": "Personal Project",
     "images": [
-      "https://picsum.photos/seed/rtse1/800/500",
-      "https://picsum.photos/seed/rtse2/800/500",
-      "https://picsum.photos/seed/rtse3/800/500"
+      "https://i.postimg.cc/dVGr42X2/RTSP-straming-architected.png"
     ],
     "keypoints": [
       {

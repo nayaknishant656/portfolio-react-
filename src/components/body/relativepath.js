@@ -6,7 +6,7 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
 
 export default function relativepath({ item }) {
-  const { id, title, des, tech, keypoints, img, images, date, feat, link, upcoming, category } = item;
+  const { id, title, des, tech, keypoints, img, images, date, feat, link, upcoming, category, assigmnetlink } = item;
   return (
     <div className='para'>
       {/* <h1 >{title}</h1> */}
@@ -52,6 +52,9 @@ export default function relativepath({ item }) {
           )}
         </div>
       </div>
+      {assigmnetlink ? (
+        <a href={assigmnetlink}>QUESTIONLINK</a>
+      ) : null}
 
       {upcoming ? (
         <h2 className='upcoming-project' style={{ color: 'red', fontWeight: 'plain' }}>
