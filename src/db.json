@@ -51,11 +51,7 @@
     "link": "",
     "tech": "React, Tailwind CSS, Node, MongoDB, Express.js, JWT Authentication",
     "category": "Assignment Project",
-    "images": [
-      "https://picsum.photos/seed/task1/800/500",
-      "https://picsum.photos/seed/task2/800/500",
-      "https://picsum.photos/seed/task3/800/500"
-    ],
+    "images": [],
     "keypoints": [
       {
         "text": "Implemented JWT authentication login, sign-ups, and authentication validation in every request."
@@ -83,8 +79,7 @@
     "category": "Assignment Project",
     "images": [
       "https://i.postimg.cc/rmmcgwR2/Trade-AI.png",
-      "https://i.postimg.cc/JhRRDq1P/Gemini-Generated-Image-oi1z0toi1z0toi1z.png",
-      "https://picsum.photos/seed/trade3/800/500"
+      "https://i.postimg.cc/JhRRDq1P/Gemini-Generated-Image-oi1z0toi1z0toi1z.png"
     ],
     "repo": [
       {
@@ -132,20 +127,18 @@
     "tech": "Next JS, Python, BeautifulSoup, OpenAI API, PostgreSQL, Tailwind CSS",
     "category": "Personal Project",
     "images": [
+      "./img/RTSPStreaming.png",
       "https://i.postimg.cc/dVGr42X2/RTSP-straming-architected.png"
     ],
     "keypoints": [
       {
-        "text": "Built web scrapers in Python using BeautifulSoup to pull listings from LinkedIn, Naukri, and Indeed."
+        "text": "Architected an end-to-end real-time video streaming pipeline by engineering an RTSP-to-HLS conversion system in Go, applying Base64 encoding for WebRTC transport, enabling seamless live camera feed delivery to web browsers without any plugins."
       },
       {
-        "text": "Used OpenAI embeddings to rank and match jobs based on resume similarity scores."
+        "text": "Developed a high-performance Go backend service responsible for continuous RTSP stream ingestion, HLS segmentation, and real-time Base64 encoding — ensuring low-latency, stable video transmission across the WebRTC protocol at scale."
       },
       {
-        "text": "Implemented filters for location, salary range, experience level, and tech stack."
-      },
-      {
-        "text": "Designed a clean dashboard with saved jobs, application tracking, and email alerts."
+        "text": "Built an interactive frontend video player using video.js to decode and render live Base64-encoded WebRTC streams in real time, backed by MongoDB storing stream metadata, frame timestamps, and coordinate data for analytics and playback reference."
       }
     ]
   },
@@ -160,9 +153,8 @@
     "tech": "Next.js, Node, Express, MongoDB, OpenAI",
     "category": "Assignment Project",
     "images": [
-      "https://picsum.photos/seed/emotion1/800/500",
-      "https://picsum.photos/seed/emotion2/800/500",
-      "https://picsum.photos/seed/emotion3/800/500"
+      "./img/Emotionally.png",
+      "./img/EmotionallyDetail.png"
     ],
     "keypoints": [
       {
@@ -189,11 +181,7 @@
     "link": "",
     "tech": "Next JS, JavaScript, CSS, TypeScript, Node",
     "category": "Impactful Project",
-    "images": [
-      "https://picsum.photos/seed/docai1/800/500",
-      "https://picsum.photos/seed/docai2/800/500",
-      "https://picsum.photos/seed/docai3/800/500"
-    ],
+    "images": [],
     "keypoints": [
       {
         "text": "Built using Next.js."
@@ -219,11 +207,7 @@
     "link": "https://backend-paardarshi.vercel.app/shoes",
     "tech": "React, JavaScript, CSS, React-Router, Node, Express, MongoDB",
     "category": "Impactful Project",
-    "images": [
-      "https://picsum.photos/seed/paar1/800/500",
-      "https://picsum.photos/seed/paar2/800/500",
-      "https://picsum.photos/seed/paar3/800/500"
-    ],
+    "images": [],
     "keypoints": [
       {
         "text": "Built using React.js. Developed own HTTP server using Express.js. Features include searching, sorting, search by ID. Used Mongoose and MongoDB for the database."
@@ -247,11 +231,7 @@
     "img": "https://lustrous-moonbeam-ea4656.netlify.app/",
     "tech": "React, JavaScript, CSS, React-Router",
     "category": "Assignment Project",
-    "images": [
-      "https://picsum.photos/seed/ecom1/800/500",
-      "https://picsum.photos/seed/ecom2/800/500",
-      "https://picsum.photos/seed/ecom3/800/500"
-    ],
+    "images": [],
     "keypoints": [
       {
         "text": "Used React-Router and Owl Carousel."
@@ -275,11 +255,7 @@
     "img": "https://react-chat-room-frontend.vercel.app/",
     "tech": "CSS, JavaScript",
     "category": "Assignment Project",
-    "images": [
-      "https://picsum.photos/seed/chat1/800/500",
-      "https://picsum.photos/seed/chat2/800/500",
-      "https://picsum.photos/seed/chat3/800/500"
-    ],
+    "images": [],
     "keypoints": [
       {
         "text": "Built frontend using CSS and JavaScript."
@@ -294,11 +270,7 @@
     "img": "https://nawnitstudio.000webhostapp.com/rev/index.html",
     "tech": "CSS, JavaScript",
     "category": "Personal Project",
-    "images": [
-      "https://picsum.photos/seed/kissan1/800/500",
-      "https://picsum.photos/seed/kissan2/800/500",
-      "https://picsum.photos/seed/kissan3/800/500"
-    ],
+    "images": [],
     "keypoints": [
       {
         "text": "Built frontend using CSS and JavaScript."
@@ -319,11 +291,7 @@
     "img": "https://nawnitstudio.000webhostapp.com/",
     "tech": "HTML, CSS, PHP, MySQL",
     "category": "Personal Project",
-    "images": [
-      "https://picsum.photos/seed/passport1/800/500",
-      "https://picsum.photos/seed/passport2/800/500",
-      "https://picsum.photos/seed/passport3/800/500"
-    ],
+    "images": [],
     "keypoints": [
       {
         "text": "Built using HTML, CSS, PHP, MySQL DB."
@@ -347,11 +315,7 @@
     "img": "https://nawnitstudio.000webhostapp.com/certificate/index.html",
     "tech": "React, JavaScript, CSS, React-Router",
     "category": "Impactful Project",
-    "images": [
-      "https://picsum.photos/seed/cert1/800/500",
-      "https://picsum.photos/seed/cert2/800/500",
-      "https://picsum.photos/seed/cert3/800/500"
-    ],
+    "images": [],
     "keypoints": [
       {
         "text": "Built using React.js."
@@ -375,11 +339,7 @@
     "img": "https://nawnitstudio.000webhostapp.com/nawnit/index.html",
     "tech": "React, JavaScript, CSS, React-Router",
     "category": "Personal Project",
-    "images": [
-      "https://picsum.photos/seed/nawnit1/800/500",
-      "https://picsum.photos/seed/nawnit2/800/500",
-      "https://picsum.photos/seed/nawnit3/800/500"
-    ],
+    "images": [],
     "keypoints": [
       {
         "text": "Built using JavaScript."
@@ -402,11 +362,7 @@
     "img": "https://nawnitstudio.000webhostapp.com/oac/index.html",
     "tech": "React, JavaScript, CSS, React-Router",
     "category": "Personal Project",
-    "images": [
-      "https://picsum.photos/seed/offline1/800/500",
-      "https://picsum.photos/seed/offline2/800/500",
-      "https://picsum.photos/seed/offline3/800/500"
-    ],
+    "images": [],
     "keypoints": [
       {
         "text": "Built using React.js."
