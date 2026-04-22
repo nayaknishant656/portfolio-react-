@@ -4,7 +4,6 @@ import { FaBeer } from 'react-icons/fa';
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
-
 export default function relativepath({ item }) {
   const { id, title, des, tech, keypoints, img, images, date, feat, link, upcoming, category, assigmnetlink } = item;
   return (
@@ -37,15 +36,15 @@ export default function relativepath({ item }) {
             // )}
             >
               {images.map((item, index) => (
-                <PhotoView key={index} src={item}>
-                  {index < 2 ? (
+                <PhotoView key={index} src={item} style={{ padding: "8px 0" }}>
+                  {index < 5 ? (
                     <div className="thumb-wrapper">
                       <img src={item} alt="" className="thumb-img" />
                       <div className="thumb-overlay">
                         <span className="thumb-icon">⊕</span>
                       </div>
                     </div>
-                  ) : undefined}
+                  ) : null}
                 </PhotoView>
               ))}
             </PhotoProvider>
