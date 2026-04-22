@@ -22,6 +22,7 @@
     "tech": "Vite, MongoDB, Express, Node, Vercel",
     "category": "Assignment Project",
     "images": [
+      "./img/APIFlow.jpg",
       "https://i.postimg.cc/3RVRvvfr/API-PLAYGROUND.png",
       "https://i.postimg.cc/fLJyyKKF/DF-PLAYGROUND.png"
     ],
